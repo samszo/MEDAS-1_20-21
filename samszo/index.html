@@ -1,1 +1,201 @@
-coucou
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDAS 1 20-21</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<body>  
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="3"><h1>TRAVAUX DU COURS</h1></th>
+            </tr>
+            <tr>
+                <td><h2>Liste des étudiants</h2></td>
+                <td><h2 id='auteurForm'></h2></td>
+                <td><h2>Réponse</h2></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <div id='listeGauche'>
+                        <ul id="listeEtu"></ul>
+                    </div>                                
+                </td>
+                <td>
+                    <div id='frmForm' class='ifr'>
+                        <iframe class='ifr' id="ifrmForm"
+                            title="Le formulaire"
+                            src="https://samszo.github.io/MEDAS-1_20-21/"
+                        >
+                        </iframe>
+                    </div>
+                </td>
+                <td>
+                    <div id='frmRep' class='ifr'>
+                        <iframe class='ifr'  id="ifrmRep"
+                        title="Les réponses"
+                        src="https://samszo.github.io/MEDAS-1_20-21/"
+                        >
+                    </iframe>
+                </div>
+                </td>
+            </tr>        
+        </tbody>
+    </table>
+    
+    
+    <script>
+        console.log("DEBUT");
+        let urlCSV = "MEDAS_20-21.csv";
+        d3.csv(urlCSV).then(function(data) {
+            console.log("csv récupéré");
+            console.log(data);
+            data.forEach(d=>{
+                //console.log(d);
+                ajoutLi(d,'listeEtu');
+            });
+        });
+        console.log("Fait autre chose");
+
+
+    function ajoutLi(d, idListe) {
+        var ul = document.getElementById(idListe);
+        var liEtu = document.createElement("li");
+        //var liTxt = document.createTextNode(d['Votre prénom']+' '+d['Votre nom']+' ('+d['Votre compte GitHub']+')');
+        //var liTxt = document.createTextNode(d['URL vers la cartographie ?']+' = '+d['Qualité esthétique de la cartographie ?']);
+        //liEtu.appendChild(liTxt);
+        liEtu.innerHTML = '<h4>'+d['Nom']+' '+d['Prenom']+'</h4>';
+
+        //afficher les lien vers le formulaire et la liste des réponse
+        var ulLien = document.createElement("ul");
+        var liLien = document.createElement("li");
+        var urlLien = "https://samszo.github.io/MEDAS-1_20-21/"+d['dossier'];
+        d.lienForm = urlLien+'/formulaire.html';
+        d.lienListeForm = urlLien+'/liste-formulaire.html';
+        liLien.innerHTML = '<a target="_blank" href="'+d.lienForm+'" class="form" >formulaire</a>'
+            +' - '+'<a target="_blank" href="'+d.lienListeForm+'" class="reponse" >réponses</a>';
+
+        //ajoute un bouton de visualisation des pages
+        var btnAfficheIframe = document.createElement("button");
+        btnAfficheIframe.setAttribute("class", "favorite styled");
+        btnAfficheIframe.setAttribute("type", "button");
+        btnAfficheIframe.innerHTML = 'voir';
+        btnAfficheIframe.addEventListener("click", function(e) {
+            affichePage(d);
+        });
+        liLien.appendChild(btnAfficheIframe);
+        ulLien.appendChild(liLien);
+
+        //ajouter l'item pour afficher l'image de la carto
+        var imgCarto = document.createElement("img");
+        imgCarto.setAttribute("src", 'papi.png');                
+        imgCarto.setAttribute("id", 'github'+d['Votre compte GitHub']);                
+        ulLien.appendChild(imgCarto);
+
+
+        //ajoute la liste à l'itme de l'atudiant
+        liEtu.appendChild(ulLien);            
+
+        /*afficher toute les propriété d'un objet
+        var ulProp = document.createElement("ul");
+        for (const property in d) {
+            var liProp = document.createElement("li");
+            var PropTxt = document.createTextNode(d[property]);
+            liProp.appendChild(PropTxt);
+            ulProp.appendChild(liProp);
+        }
+        liEtu.appendChild(ulProp);            
+        */
+        ul.appendChild(liEtu);
+    }
+
+    console.log('FIN');
+
+    function affichePage(d){
+        console.log(d);
+
+        //affiche le nopm de l'auteur du formulaire
+        var af = document.getElementById('auteurForm');
+        af.innerHTML = 'Formulaire de : '+d['Votre prénom']+' '+d['Votre nom'];        
+        
+        //récupérer l'ifram pour le formulaire
+        var ifr = document.getElementById('ifrmForm');
+        //changer la source de ifrmForm
+        ifr.setAttribute("src", d.lienForm);
+
+        //récupérer l'ifram pour la liste formulaire
+        ifr = document.getElementById('ifrmRep');
+        //changer la source de ifrmRep
+        ifr.setAttribute("src", d.lienListeForm);
+
+    }
+
+    function getOmkCarto(){
+        let urlOmkCarto = "https://jardindesconnaissances.univ-paris8.fr/GSI/M2/20-21/omk/api/items?item_set_id=96";
+        //urlOmkCarto = "itemsOmk.json";
+        d3.json(urlOmkCarto).then(function(data) {
+            console.log("json récupéré");
+            console.log(data);
+            /*création de la liste des cartographie
+            var ul = document.getElementById("listeCartographie");
+            data.forEach(d=>{
+                //création du li
+                var li = document.createElement("li");
+                //création du texte 
+                var liTxt = document.createTextNode(d['o:title']);
+                li.appendChild(liTxt);
+                //création de l'image
+                var imgCarto = document.createElement('img');
+                //changer la source de l'image
+                imgCarto.setAttribute("src", d.thumbnail_display_urls.square);                
+                li.appendChild(imgCarto);
+
+                ul.appendChild(li);                
+            });
+            */
+            //mettre à jour l'image de la carto pour l'étudiant
+            data.forEach(d=>{
+                if(d["bibo:owner"]){
+                    var imgCarto = document.getElementById('github'+d["bibo:owner"][0]["@value"]);
+                    if(imgCarto){
+                        imgCarto.setAttribute("src", d.thumbnail_display_urls.square);
+                        imgCarto.addEventListener("click", function(e) {
+                            afficheCarte(d);
+                        });
+
+                    };             
+                }
+            })
+
+
+
+        });
+    }
+
+    function afficheCarte(d){
+        //affiche le nopm de l'auteur du formulaire
+        var af = document.getElementById('auteurForm');
+        af.innerHTML = 'Carte : '+d['o:title'];        
+        
+        //affiche la carte en grand format
+        var ifr = document.getElementById('ifrmForm');
+        //changer la source de ifrmForm
+        ifr.setAttribute("src", d.thumbnail_display_urls.large);
+
+        //affiche le formulaire d'évaluation
+        ifr = document.getElementById('ifrmRep');
+        //changer la source de ifrmRep
+        ifr.setAttribute("src", "");
+
+    }
+    </script>
+</body>
+</html>
