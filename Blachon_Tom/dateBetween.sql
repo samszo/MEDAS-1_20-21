@@ -1,0 +1,2 @@
+SELECT * FROM classes
+WHERE Annee_etude BETWEEN '2012' AND '2021'
