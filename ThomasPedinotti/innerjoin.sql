@@ -1,1 +1,0 @@
-select regions_commerciales.id_region, agences.id_agence, contrats.id_contrats from regions_commerciales inner join agences on regions_commerciales.id_region=agences.iid_region inner join contrats on agences.id_agence=contrats.agences_id_agence
