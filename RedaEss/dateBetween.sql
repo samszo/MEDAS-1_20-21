@@ -1,0 +1,4 @@
+SELECT * FROM emprunt
+WHERE date_emprunt
+BETWEEN '2020-01-01'
+AND '2021-01-01'
