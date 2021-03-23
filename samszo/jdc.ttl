@@ -4,6 +4,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
 @prefix jdc: <https://jardindesconnaissances.univ-paris8.fr/onto/jdc#> .
 @prefix ma: <http://www.w3.org/ns/ma-ont#>.
 
@@ -11,7 +12,8 @@
     dcterms:title "Jardin des connaissances" .
 
 jdc:SemanticPosition a rdfs:Class ;
-    rdfs:label "SemanticPosition" ;
+    rdfs:label "SemanticPosition"@en ;
+    rdfs:label "Position sémantique"@fr ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
@@ -28,6 +30,7 @@ jdc:CriblePosition a rdfs:Class ;
 jdc:CribleCarto a rdfs:Class ;
     rdfs:label "Cartographie d'un crible" ;
     rdfs:domain o:Resource ;
+    owl:sameAs dbo:iconographicAttributes;
     vs:term_status "experimental" .
 
 jdc:Actant a rdfs:Class ;
