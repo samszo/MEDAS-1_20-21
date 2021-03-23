@@ -10,71 +10,71 @@
 <https://cabinetmedical.fr/onto/cabmed#> a owl:Ontology ;
     dcterms:title "Cabinet medical" .
 
-jdc:Medecin a rdfs:Class ;
+cabmed:Medecin a rdfs:Class ;
     rdfs:label "Medecin" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-jdc:Patient a rdfs:Class ;
+cabmed:Patient a rdfs:Class ;
     rdfs:label "Patient" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-jdc:Ordonnance a rdfs:Class ;
+cabmed:Ordonnance a rdfs:Class ;
     rdfs:label "Ordonnance" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-jdc:Consultation a rdfs:Class ;
+cabmed:Consultation a rdfs:Class ;
     rdfs:label "Consultation" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-jdc:Parcourssoin a rdfs:Class ;
+cabmed:Parcourssoin a rdfs:Class ;
     rdfs:label "Parcours de soin" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-jdc:nom a rdf:Property ;
+cabmed:nom a rdf:Property ;
     rdfs:label "a pour nom" ;
     rdfs:domain o:Resource .
 
-jdc:prenom a rdf:Property ;
+cabmed:prenom a rdf:Property ;
     rdfs:label "a pour prenom" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-jdc:adresse a rdf:Property ;
+cabmed:adresse a rdf:Property ;
     rdfs:label "adresse" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-jdc:numSS a rdf:Property ;
+cabmed:numSS a rdf:Property ;
     rdfs:label "numero SS" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-jdc:dateord a rdf:Property ;
+cabmed:dateord a rdf:Property ;
     rdfs:label "date ordonnance" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-jdc:typemedicament a rdf:Property ;
+cabmed:typemedicament a rdf:Property ;
     rdfs:label "type de medicament" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-jdc:specialite a rdf:Property ;
+cabmed:specialite a rdf:Property ;
     rdfs:label "specialite" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-jdc:centre a rdf:Property ;
+cabmed:centre a rdf:Property ;
     rdfs:label "centre" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-jdc:daterdv a rdf:Property ;
+cabmed:daterdv a rdf:Property ;
     rdfs:label "date du rdv" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
