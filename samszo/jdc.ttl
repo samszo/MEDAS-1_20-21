@@ -1,0 +1,146 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix jdc: <https://jardindesconnaissances.univ-paris8.fr/onto/jdc#> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#>.
+
+<https://jardindesconnaissances.univ-paris8.fr/onto/jdc#> a owl:Ontology ;
+    dcterms:title "Jardin des connaissances" .
+
+jdc:SemanticPosition a rdfs:Class ;
+    rdfs:label "SemanticPosition" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:Crible a rdfs:Class ;
+    rdfs:label "Crible" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:CriblePosition a rdfs:Class ;
+    rdfs:label "CriblePosition" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:CribleCarto a rdfs:Class ;
+    rdfs:label "Cartographie d'un crible" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:Actant a rdfs:Class ;
+    rdfs:label "Actant" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:Doc a rdfs:Class ;
+    rdfs:label "Doc" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:Rapport a rdfs:Class ;
+    rdfs:label "Rapport" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:Concept a rdfs:Class ;
+    rdfs:label "Concept" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:x a rdf:Property ;
+    rdfs:label "x" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:y a rdf:Property ;
+    rdfs:label "y" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:xRatingValue a rdf:Property ;
+    rdfs:label "xRatingValue" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:yRatingValue a rdf:Property ;
+    rdfs:label "yRatingValue" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:degradName a rdf:Property ;
+    rdfs:label "degradName" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:degradColors a rdf:Property ;
+    rdfs:label "degradColors" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:creationDate a rdf:Property ;
+    rdfs:label "creationDate" ;
+    rdfs:domain o:Resource .
+
+jdc:hasActant a rdf:Property ;
+    rdfs:label "a comme actant" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:hasDoc a rdf:Property ;
+    rdfs:label "a comme document" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:hasConcept a rdf:Property ;
+    rdfs:label "a comme concept" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:hasRapport a rdf:Property ;
+    rdfs:label "a comme rapport" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:hasCrible a rdf:Property ;
+    rdfs:label "a comme crible" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:cribleLabel a rdf:Property ;
+    rdfs:label "cribleLabel" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:cribleId a rdf:Property ;
+    rdfs:label "cribleId" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:cribleRatingValue a rdf:Property ;
+    rdfs:label "cribleRatingValue" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:distanceCenter a rdf:Property ;
+    rdfs:label "distance du centre" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:distanceConcept a rdf:Property ;
+    rdfs:label "distance du concept" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:ordreCrible a rdf:Property ;
+    rdfs:label "Ordre dans le crible" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:hasCribleCarto a rdf:Property ;
+    rdfs:label "a comme cartographie" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+    
