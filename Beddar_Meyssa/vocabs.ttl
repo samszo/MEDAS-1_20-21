@@ -49,13 +49,23 @@ cabmed:adresse a rdf:Property ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+cabmed:ville a rdf:Property ;
+    rdfs:label "ville" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+cabmed:codepostal a rdf:Property ;
+    rdfs:label "code postal" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
 cabmed:numSS a rdf:Property ;
     rdfs:label "numero SS" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-cabmed:dateord a rdf:Property ;
-    rdfs:label "date ordonnance" ;
+cabmed:date a rdf:Property ;
+    rdfs:label "date" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
@@ -74,7 +84,3 @@ cabmed:centre a rdf:Property ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-cabmed:daterdv a rdf:Property ;
-    rdfs:label "date du rdv" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
