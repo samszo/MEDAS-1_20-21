@@ -4,10 +4,10 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix o: <http://omeka.org/s/vocabs/o#> .
-@prefix cabmed: <https://cabinetmedical.fr/onto/jdc#> .
+@prefix cabmed: <https://cabinetmedical.fr/onto/cabmed#> .
 @prefix ma: <http://www.w3.org/ns/ma-ont#>.
 
-<https://cabinetmedical.fr/onto/jdc#> a owl:Ontology ;
+<https://cabinetmedical.fr/onto/cabmed#> a owl:Ontology ;
     dcterms:title "Cabinet medical" .
 
 jdc:Medecin a rdfs:Class ;
