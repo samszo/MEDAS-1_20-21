@@ -1,0 +1,80 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix cabmed: <https://cabinetmedical.fr/onto/cabmed#> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#>.
+
+<https://cabinetmedical.fr/onto/cabmed#> a owl:Ontology ;
+    dcterms:title "Cabinet medical" .
+
+cabmed:Medecin a rdfs:Class ;
+    rdfs:label "Medecin" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+cabmed:Patient a rdfs:Class ;
+    rdfs:label "Patient" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+cabmed:Ordonnance a rdfs:Class ;
+    rdfs:label "Ordonnance" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+cabmed:Consultation a rdfs:Class ;
+    rdfs:label "Consultation" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+cabmed:Parcourssoin a rdfs:Class ;
+    rdfs:label "Parcours de soin" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+cabmed:nom a rdf:Property ;
+    rdfs:label "a pour nom" ;
+    rdfs:domain o:Resource .
+
+cabmed:prenom a rdf:Property ;
+    rdfs:label "a pour prenom" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+cabmed:adresse a rdf:Property ;
+    rdfs:label "adresse" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+cabmed:numSS a rdf:Property ;
+    rdfs:label "numero SS" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+cabmed:dateord a rdf:Property ;
+    rdfs:label "date ordonnance" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+cabmed:typemedicament a rdf:Property ;
+    rdfs:label "type de medicament" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+cabmed:specialite a rdf:Property ;
+    rdfs:label "specialite" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+cabmed:centre a rdf:Property ;
+    rdfs:label "centre" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+cabmed:daterdv a rdf:Property ;
+    rdfs:label "date du rdv" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
