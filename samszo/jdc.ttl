@@ -11,6 +11,29 @@
 <https://jardindesconnaissances.univ-paris8.fr/onto/jdc#> a owl:Ontology ;
     dcterms:title "Jardin des connaissances" .
 
+jdc:proprietaire a rdfs:Class ;
+rdfs:label "proprietaire";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+jdc:siege a rdfs:Class ;
+rdfs:label "siege";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+jdc:tarif a rdfs:Class ;
+rdfs:label "tarif";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+jdc:theatre a rdfs:Class ;
+rdfs:label "theatre";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+jdc:theatre_has_proprietaire a rdfs:Class ;
+rdfs:label "theatre_has_proprietaire";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+
 jdc:SemanticPosition a rdfs:Class ;
     rdfs:label "SemanticPosition"@en ;
     rdfs:label "Position sémantique"@fr ;
