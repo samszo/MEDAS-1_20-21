@@ -1,0 +1,33 @@
+{
+    "o:label": "Ordonnance",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/cabinetmedical.fr\/onto\/cabmed#",
+            "vocabulary_label": "Cabinet medical",
+            "local_name": "date",
+            "label": "date"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/cabinetmedical.fr\/onto\/cabmed#",
+            "vocabulary_label": "Cabinet medical",
+            "local_name": "typemedicament",
+            "label": "type de medicament"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/cabinetmedical.fr\/onto\/cabmed#",
+        "vocabulary_label": "Cabinet medical",
+        "local_name": "Ordonnance",
+        "label": "Ordonnance"
+    }
+}

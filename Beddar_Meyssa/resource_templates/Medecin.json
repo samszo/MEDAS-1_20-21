@@ -1,0 +1,33 @@
+{
+    "o:label": "Medecin",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/cabinetmedical.fr\/onto\/cabmed#",
+            "vocabulary_label": "Cabinet medical",
+            "local_name": "nom",
+            "label": "a pour nom"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/cabinetmedical.fr\/onto\/cabmed#",
+            "vocabulary_label": "Cabinet medical",
+            "local_name": "prenom",
+            "label": "a pour prenom"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/cabinetmedical.fr\/onto\/cabmed#",
+        "vocabulary_label": "Cabinet medical",
+        "local_name": "Medecin",
+        "label": "Medecin"
+    }
+}

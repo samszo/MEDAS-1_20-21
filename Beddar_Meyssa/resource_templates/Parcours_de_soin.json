@@ -1,0 +1,55 @@
+{
+    "o:label": "Parcours de soin",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/cabinetmedical.fr\/onto\/cabmed#",
+            "vocabulary_label": "Cabinet medical",
+            "local_name": "nom",
+            "label": "a pour nom"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/cabinetmedical.fr\/onto\/cabmed#",
+            "vocabulary_label": "Cabinet medical",
+            "local_name": "prenom",
+            "label": "a pour prenom"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/cabinetmedical.fr\/onto\/cabmed#",
+            "vocabulary_label": "Cabinet medical",
+            "local_name": "specialite",
+            "label": "specialite"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/cabinetmedical.fr\/onto\/cabmed#",
+            "vocabulary_label": "Cabinet medical",
+            "local_name": "centre",
+            "label": "centre"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/cabinetmedical.fr\/onto\/cabmed#",
+        "vocabulary_label": "Cabinet medical",
+        "local_name": "Parcourssoin",
+        "label": "Parcours de soin"
+    }
+}
