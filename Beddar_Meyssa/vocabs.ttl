@@ -84,3 +84,12 @@ cabmed:centre a rdf:Property ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+cabmed:avoirpatient a rdf:Property ;
+    rdfs:label "a pour patient" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+cabmed:avoirmedecin a rdf:Property ;
+    rdfs:label "a pour medecin" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
