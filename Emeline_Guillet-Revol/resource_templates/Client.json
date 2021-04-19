@@ -1,0 +1,66 @@
+{
+    "o:label": "Client",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/cinema.fr\/onto\/cine#",
+            "vocabulary_label": "Cinema Gestion",
+            "local_name": "nomClient",
+            "label": "Nom Client"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/cinema.fr\/onto\/cine#",
+            "vocabulary_label": "Cinema Gestion",
+            "local_name": "prenomClient",
+            "label": "Prenom Client"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/cinema.fr\/onto\/cine#",
+            "vocabulary_label": "Cinema Gestion",
+            "local_name": "adrClient",
+            "label": "Adresse Client"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/cinema.fr\/onto\/cine#",
+            "vocabulary_label": "Cinema Gestion",
+            "local_name": "cpClient",
+            "label": "CP Client"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/cinema.fr\/onto\/cine#",
+            "vocabulary_label": "Cinema Gestion",
+            "local_name": "villeClient",
+            "label": "Ville Client"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/cinema.fr\/onto\/cine#",
+        "vocabulary_label": "Cinema Gestion",
+        "local_name": "Client",
+        "label": "Client"
+    }
+}
