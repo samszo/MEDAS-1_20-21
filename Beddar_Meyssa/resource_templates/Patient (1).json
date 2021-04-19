@@ -1,0 +1,77 @@
+{
+    "o:label": "Patient",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/cabinetmedical.fr\/onto\/cabmed#",
+            "vocabulary_label": "Cabinet medical",
+            "local_name": "nom",
+            "label": "a pour nom"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/cabinetmedical.fr\/onto\/cabmed#",
+            "vocabulary_label": "Cabinet medical",
+            "local_name": "prenom",
+            "label": "a pour prenom"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/cabinetmedical.fr\/onto\/cabmed#",
+            "vocabulary_label": "Cabinet medical",
+            "local_name": "adresse",
+            "label": "adresse"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/cabinetmedical.fr\/onto\/cabmed#",
+            "vocabulary_label": "Cabinet medical",
+            "local_name": "ville",
+            "label": "ville"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/cabinetmedical.fr\/onto\/cabmed#",
+            "vocabulary_label": "Cabinet medical",
+            "local_name": "numSS",
+            "label": "numero SS"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/cabinetmedical.fr\/onto\/cabmed#",
+            "vocabulary_label": "Cabinet medical",
+            "local_name": "avoirmedecin",
+            "label": "a pour medecin"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/cabinetmedical.fr\/onto\/cabmed#",
+        "vocabulary_label": "Cabinet medical",
+        "local_name": "Patient",
+        "label": "Patient"
+    }
+}
