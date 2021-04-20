@@ -1,0 +1,66 @@
+{
+    "o:label": "Employes",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "title",
+            "label": "Title"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/univlikeuniverse.univ-verse.fr\/onto\/univ#",
+            "vocabulary_label": "Mon Universit\u00e9",
+            "local_name": "profession",
+            "label": "profession"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/univlikeuniverse.univ-verse.fr\/onto\/univ#",
+            "vocabulary_label": "Mon Universit\u00e9",
+            "local_name": "salaire_net",
+            "label": "salaire net"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/univlikeuniverse.univ-verse.fr\/onto\/univ#",
+            "vocabulary_label": "Mon Universit\u00e9",
+            "local_name": "adresse",
+            "label": "adresse"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/univlikeuniverse.univ-verse.fr\/onto\/univ#",
+            "vocabulary_label": "Mon Universit\u00e9",
+            "local_name": "email",
+            "label": "courriel"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/univlikeuniverse.univ-verse.fr\/onto\/univ#",
+        "vocabulary_label": "Mon Universit\u00e9",
+        "local_name": "employee",
+        "label": "employ\u00e9"
+    }
+}
