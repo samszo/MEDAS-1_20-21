@@ -1,0 +1,92 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix ca: <https://circuit-achat.cnam.fr/onto/ca#> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#>.
+
+<https://circuit-achat.cnam.fr/onto/ca#> a owl:Ontology ;
+    dcterms:title "Circuit Achat" .
+ca:demande_achat a rdfs:Class ;
+rdfs:label "demande_achat";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+ca:commande a rdfs:Class ;
+rdfs:label "commande";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+ca:facture a rdfs:Class ;
+rdfs:label "facture";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+ca:operateur a rdfs:Class ;
+rdfs:label "operateur";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+ca:article a rdfs:Class ;
+rdfs:label "article";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+ca:fournisseur a rdfs:Class ;
+rdfs:label "fournisseur";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+ca:has_article a rdf:Property ;
+rdfs:label "has_article";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+ca:has_dem_ach a rdf:Property ;
+rdfs:label "has_dem_ach";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .	
+ca:has_fournisseur a rdf:Property ;
+rdfs:label "has_fournisseur";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+ca:has_operateur a rdf:Property ;
+rdfs:label "has_operateur";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+ca:has_commande a rdf:Property ;
+rdfs:label "has_commande";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+ca:famille_article a rdf:Property ;
+rdfs:label "famille_article";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+ca:ss_famille_article a rdf:Property ;
+rdfs:label "ss_famille_article";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+ca:contact a rdf:Property ;
+rdfs:label "contact";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+ca:quantite a rdf:Property ;
+rdfs:label "quantite";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+ca:adresse_livraison a rdf:Property ;
+rdfs:label "adresse_livraison";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+ca:article_demande a rdf:Property ;
+rdfs:label "article_demande";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+ca:cmd_has_dem_ach a rdf:Property ;
+rdfs:label "commande a comme demande d'achat";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .	
+
+
+
+
+
