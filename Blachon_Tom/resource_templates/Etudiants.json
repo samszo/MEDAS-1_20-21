@@ -20,17 +20,6 @@
             "data_types": [],
             "vocabulary_namespace_uri": "https:\/\/univlikeuniverse.univ-verse.fr\/onto\/univ#",
             "vocabulary_label": "Mon Universit\u00e9",
-            "local_name": "classe",
-            "label": "classe"
-        },
-        {
-            "o:alternate_label": null,
-            "o:alternate_comment": null,
-            "o:is_required": false,
-            "o:is_private": false,
-            "data_types": [],
-            "vocabulary_namespace_uri": "https:\/\/univlikeuniverse.univ-verse.fr\/onto\/univ#",
-            "vocabulary_label": "Mon Universit\u00e9",
             "local_name": "adresse",
             "label": "adresse"
         },
@@ -44,6 +33,17 @@
             "vocabulary_label": "Mon Universit\u00e9",
             "local_name": "email",
             "label": "courriel"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/univlikeuniverse.univ-verse.fr\/onto\/univ#",
+            "vocabulary_label": "Mon Universit\u00e9",
+            "local_name": "acommeclasse",
+            "label": "a comme classe"
         }
     ],
     "o:resource_class": {

@@ -44,6 +44,17 @@
             "vocabulary_label": "dbpedia",
             "local_name": "campus",
             "label": "campus"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/univlikeuniverse.univ-verse.fr\/onto\/univ#",
+            "vocabulary_label": "Mon Universit\u00e9",
+            "local_name": "acommecours",
+            "label": "a comme cours"
         }
     ],
     "o:resource_class": {
