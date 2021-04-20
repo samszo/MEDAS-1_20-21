@@ -35,7 +35,7 @@ rdfs:label "theatre_has_proprietaire";
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-jdc:id_proprietaire a rdfs:Property ;
-rdfs:label "id_proprietaire";
+jdc:JardinHasPlante a rdf:Property ;
+rdfs:label "Le jardin a comme plante";
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
