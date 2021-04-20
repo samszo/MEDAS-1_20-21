@@ -96,3 +96,25 @@ univ:classe a rdf:Property ;
 rdfs:label "classe"@fr;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
+
+
+
+univ:héberge a rdf:Property ;
+rdfs:label "héberge"@fr;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+univ:acommecours a rdf:Property ;
+rdfs:label "a comme cours"@fr;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+	
+univ:acommeclasse a rdf:Property ;
+rdfs:label "a comme classe"@fr;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+univ:utilisecommeservice a rdf:Property ;
+rdfs:label "utilise comme service"@fr;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
