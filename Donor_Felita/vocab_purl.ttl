@@ -1,0 +1,38 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix purl: <http://purl.org/ontology/mo/> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#>.
+
+<http://purl.org/ontology/mo#> a owl:Ontology ;
+    dcterms:title "Music Ontology Purl" .
+
+purl:MusicArtist a rdfs:Class ;
+rdfs:label "artist";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+purl:Track a rdfs:Class ;
+rdfs:label "track";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+purl:Group:Class ;
+rdfs:label "group";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+purl:tMemberOf:Class ;
+rdfs:label "member_of";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+purl:RemixOf:Class ;
+rdfs:label "remix_of";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
