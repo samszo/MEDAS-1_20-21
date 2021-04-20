@@ -1,0 +1,73 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix gds: <https://gestiondessalaries.univ-paris8.fr/onto/gds#> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#>.
+
+<https://gestiondessalaries.univ-paris8.fr/onto/gds#>  a owl:Ontology ;
+    dcterms:title "Gestion des Salaries" .
+gds:Employe a rdfs:Class ;
+rdfs:label "Employe";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+gds:Contrat a rdfs:Class ;
+rdfs:label "Contrat";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+gds:Employe_has_Projet a rdfs:Class ;
+rdfs:label "Employe_has_Projet";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+gds:Projet a rdfs:Class ;
+rdfs:label "Projet";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+gds:Poste a rdfs:Class ;
+rdfs:label "Poste";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+gds:Poste_has_Site a rdfs:Class ;
+rdfs:label "Poste_has_Site";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+gds:Site a rdfs:Class ;
+rdfs:label "Site";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .   
+
+gds: Employe_has_project a rdf:Property ;
+rdfs:label "Employe_has_project";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+gds:Nom a rdf:Property ;
+rdfs:label "Nom";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+gds:Prenom a rdf:Property ;
+rdfs:label "Prenom";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+gds:Adresse a rdf:Property ;
+rdfs:label "Adresse";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+gds:Salaire a rdf:Property ;
+rdfs:label "Salaire";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+gds:Mission a rdf:Property ;
+rdfs:label "Mission";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+gds:Duree a rdf:Property ;
+rdfs:label "Duree";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+gds:Cout a rdf:Property ;
+rdfs:label "Cout";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
