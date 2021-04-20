@@ -1,0 +1,55 @@
+@prefix ges: <http://gestion_equipe_sport/onto/ges#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix km4city: <http://www.disit.org/km4city/schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#>.
+
+<http://gestion_equipe_sport/onto/ges#> a owl:Ontology ;
+	dcterms:title "Gestion des équipes de sports" .
+	
+ges:Sportif a rdfs:Class ;
+rdfs:label "Sportif";
+	rdfs:domain o:Resource ;
+	vs:term_status "experimental" .
+
+ges:Entraineur a rdfs:Class ;
+rdfs:label "Entraineur";
+	rdfs:domain o:Resource ;
+	vs:term_status "experimental" .
+	
+ges:Seance a rdfs:Class ;
+rdfs:label "Seance";
+	rdfs:domain o:Resource ;
+	vs:term_status "experimental" .
+	
+ges:Gymnase a rdfs:Class ;
+rdfs:label "Gymnase";
+	rdfs:domain o:Resource ;
+	vs:term_status "experimental" .
+	
+ges:Sports a rdfs:Class ;
+rdfs:label "Sports";
+	rdfs:domain o:Resource ;
+	vs:term_status "experimental" .
+	
+ges:Sportif_has_Seance a rdfs:Property ;
+rdfs:label "Sportif_has_Seance";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+	
+ges:Sportif_has_Entraineur a rdfs:Property ;
+rdfs:label "Sportif_has_Entraineur";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+	
+ges:id_Sportif a rdfs:Property ;
+rdfs:label "id_Sportif";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
