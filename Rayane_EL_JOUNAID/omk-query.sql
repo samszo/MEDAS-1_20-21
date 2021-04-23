@@ -16,4 +16,4 @@ INNER JOIN value v
     on p.id = v.property_id
 INNER JOIN resource r
     on v.resource_id = r.id
-WHERE r.id = 1
+WHERE r.title = "Antoine de Saint-Exupéry"
