@@ -1,0 +1,96 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix emc2: <https://ecommerce.univ-paris8.fr/onto/emc2#> .
+@prefix teach: <http://linkedscience.org/teach/ns#> .
+@prefix schema: <http://schema.org/> .
+
+<https://ecommerce.univ-paris8.fr/onto/emc29> a owl:Ontology ;
+    dcterms:title "ecommerce" .
+
+
+emc2:Client a rdfs:Class ;
+    rdfs:label "Client" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+emc2:N°Client a rdf:Property ;
+    rdfs:label "N°Client" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+emc2:Effectue a rdf:Property ;
+    rdfs:label "Effectue" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+emc2:Contient a rdf:Property ;
+    rdfs:label "Contient" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+emc2:Nom_Client a rdf:Property ;
+    rdfs:label "Nom_Client" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+emc2:Prénom_Client a rdf:Property ;
+    rdfs:label "Prénom_Client" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+emc2:Adresse_Client a rdf:Property ;
+    rdfs:label "Adresse_Client" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+emc2:Commandes a rdfs:Class ;
+    rdfs:label "Commandes" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+emc2:N°Commandes a rdf:Property ;
+    rdfs:label "N°Commandes" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+emc2:Date_Commandes a rdf:Property ;
+    rdfs:label "Date_Commandes" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+emc2:Adresse_Livraison a rdf:Property ;
+    rdfs:label "Adresse_Livraison" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+emc2:Produits a rdfs:Class ;
+    rdfs:label "Produits" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+emc2:N°Produit a rdf:Property ;
+    rdfs:label "N°Produit" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+emc2:Libellé_Produit a rdf:Property ;
+    rdfs:label "Libellé_Produit" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+emc2:Prix_Produit a rdf:Property ;
+    rdfs:label "Prix_Produit" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+
