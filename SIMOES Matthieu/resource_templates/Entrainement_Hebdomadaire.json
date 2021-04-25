@@ -1,0 +1,55 @@
+{
+    "o:label": "Entrainement_Hebdomadaire",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "title",
+            "label": "Title"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "description",
+            "label": "Description"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/gestion_equipe_sport\/onto\/ges#",
+            "vocabulary_label": "Gestion_Equipe_Sport",
+            "local_name": "Sportif_has_Seance",
+            "label": "Sportif_has_Seance"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/gestion_equipe_sport\/onto\/ges#",
+            "vocabulary_label": "Gestion_Equipe_Sport",
+            "local_name": "Sportif_has_Entraineur",
+            "label": "Sportif_has_Entraineur"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "http:\/\/gestion_equipe_sport\/onto\/ges#",
+        "vocabulary_label": "Gestion_Equipe_Sport",
+        "local_name": "Seance",
+        "label": "Seance"
+    }
+}
