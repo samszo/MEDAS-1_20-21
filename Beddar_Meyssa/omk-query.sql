@@ -8,7 +8,8 @@ INNER JOIN property prop
 WHERE rt.label = "Medecin"
 
 -- Requête qui affiche les valeurs des propriétés de l'item "MARTINS Jérémy"
-SELECT val.*
+SELECT prop.label,
+	val.value
 FROM value val 
 INNER JOIN property prop
 	on prop.id = val.property_id
