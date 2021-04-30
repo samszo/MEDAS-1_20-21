@@ -46,17 +46,17 @@
                 console.error("Error loading the data");
             });
 
-            // //affiche les médias de omekas
-            // let urlMedias = 'http://localhost/omeka-s_medas1_20-21/api/media';
-            // d3.json(urlMedias)
-            // .then((data) => {
-            //     //création des elements img dans le div media
-            //     d3.select('#medias').selectAll('img').data(data).enter().append('img')
-            //         .attr('src',media=>media["o:thumbnail_urls"].medium);
-            // })
-            // .catch((error) => {
-            //     console.error("Error loading the data");
-            // });
+            //affiche les médias de omekas
+            let urlMedias = 'http://localhost/omeka-s_medas1_20-21/api/media';
+            d3.json(urlMedias)
+            .then((data) => {
+                //création des elements img dans le div media
+                d3.select('#medias').selectAll('img').data(data).enter().append('img')
+                    .attr('src',media=>media["o:thumbnail_urls"].medium);
+            })
+            .catch((error) => {
+                console.error("Error loading the data");
+            });
         </script>
     </body>
 </html>
