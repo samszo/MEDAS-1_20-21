@@ -8,7 +8,6 @@ INNER JOIN property p
 WHERE rt.label = "livre"
 
 -- pour afficher les valeurs des propriétés d'un item
-
 SELECT p.label, r.id, v.value, v.lang, v.uri, v.value_resource_id, r.title
 FROM property p
 INNER JOIN value v
