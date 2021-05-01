@@ -1,0 +1,41 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix mga: <https://magasin-articles.fr/onto/mga#> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#>.
+
+<https://magasin-articles.fr/onto/mga#> a owl:Ontology ;
+    dcterms:title "Magasin" .
+mga:Client a rdfs:Class ;
+rdfs:label "Client";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+mga:magasinclient a rdfs:Class ;
+rdfs:label "magasinclient";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+mga:Client a rdfs:Class ;
+rdfs:label "Client";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+mga:Articles appartiennent rdfs:Class ;
+rdfs:label "Articles";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+mga:Magasin a rdfs:Class ;
+rdfs:label "Magasin";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+mga:Magasin_has_Client a rdfs:Class ;
+rdfs:label "Magasin_has_Client";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+mga:Magasin a rdf:Articles ;
+rdfs:label "Le magasin a plusieurs Articles";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
