@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Exemple utilisation api omeka s</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+</head>
+<body>
+
+    <h1 id="TitreSite"></h1>
+    <div id="medias"></div>
+
+
+<script>
+    // Récupère l'élément html TitreSite
+    let elTitre = document.getElementById('TitreSite');
+
+    // Définition de l'url JSON pour récupérer les données du site
+    let urlSite = 'http://localhost/omeka-s/api/sites/1';
+
+    // Transforme les données de l'url en objet javascript
+    d3.json(urlSite)
+    .then((data) => {
+        //Change la valeur de l'élément TitreSite
+         elTitre.innerHTML = data['o:title'];
+    })
+    .catch((error) =>{
+        console.error("Error loading the data");
+    });
+
+
+    // affiche les médias de omeka-s
+
+    let urlMedias = 'http://localhost/omeka-s/api/media';
+    
+    d3.json(urlMedias)
+    .then((data) => {
+        //Création des éléments img dans medias
+        d3.select('#medias').selectAll('img').data(data).enter().append('img')
+            .attr('src',media=>media["o:thumbnail_urls"].medium);
+    })
+    .catch((error) =>{
+        console.error("Error loading the data");
+    });
+
+</script>
+    
+</body>
+</html>
