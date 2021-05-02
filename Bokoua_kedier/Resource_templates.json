@@ -1,0 +1,33 @@
+{
+    "o:label": "Magasinhasclient",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": "Articles",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "title",
+            "label": "Title"
+        },
+        {
+            "o:alternate_label": "les articles d'un magasin",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "description",
+            "label": "Description"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/magasin-articles.fr\/onto\/mga#",
+        "vocabulary_label": "Magasin",
+        "local_name": "Articles",
+        "label": "Articles"
+    }
+}
