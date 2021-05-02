@@ -8,4 +8,10 @@ from property as p
 where rt.id = 4;
 
 -- donne les valeurs des propriétés d'un item
-select value from value where resource_id = 6; 
+select label, value 
+from value as v
+  INNER JOIN 
+  property as p ON v.property_id = p.id
+  INNER JOIN 
+  resource as r ON v.resource_id = r.id
+where v.resource_id = 6;
