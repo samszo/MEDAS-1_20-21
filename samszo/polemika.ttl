@@ -1,0 +1,97 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix plmk: <https://polemika.univ-paris8.fr/onto/polemika#> .
+
+
+<https://polemika.univ-paris8.fr/onto/polemika#> a owl:Ontology ;
+    dcterms:title "Polemika" .
+
+plmk:Monde a rdfs:Class ;
+    rdfs:label "Monde" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+plmk:Argument a rdfs:Class ;
+    rdfs:label "Argument" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+plmk:LieuCommun a rdfs:Class ;
+    rdfs:label "Lieu commun" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+plmk:CarteExpression a rdfs:Class ;
+    rdfs:label "Carte des expressions" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+plmk:echelleMicro a rdf:Property ;
+    rdfs:label "Echelle Micro" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+plmk:echelleMeso a rdf:Property ;
+    rdfs:label "Echelle Meso" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+plmk:echelleMacro a rdf:Property ;
+    rdfs:label "Echelle Macro" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+plmk:rapportTechnique a rdf:Property ;
+    rdfs:label "Rapport à la technique" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+plmk:rapportOrdre a rdf:Property ;
+    rdfs:label "Rapport à l'ordre et au conformisme" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+plmk:rapportGrandeur a rdf:Property ;
+    rdfs:label "Rapport aux signes de grandeur" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+plmk:fonctionRapportGrandeur a rdf:Property ;
+    rdfs:label "Fonctionnement des rapports de grandeur" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .     
+
+plmk:hierarchieRapportSocial a rdf:Property ;
+    rdfs:label "Hiérarchie des rapports sociaux" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+plmk:valeurPositive a rdf:Property ;
+    rdfs:label "Valeurs positives" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+plmk:fonctionReferentiel a rdf:Property ;
+    rdfs:label "Référentiel du fonctionnement des mondes" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+plmk:valeurNegative a rdf:Property ;
+    rdfs:label "Valeurs négatives" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+plmk:hasMonde a rdf:Property ;
+    rdfs:label "A comme monde" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+plmk:hasMonde a rdf:Property ;
+    rdfs:label "A comme monde" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
