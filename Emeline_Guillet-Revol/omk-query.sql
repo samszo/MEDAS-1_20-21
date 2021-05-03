@@ -8,7 +8,7 @@ WHERE rt.label = "Salle"
 
 -- Requête qui affiche les valeurs des propriétés de l'item ayant pour titre "Ariel Centre Salle 2"
 -- Soit le nombre de place dans la salle, le cinéma rattaché (ressource), 
-SELECT v.type, v.value, p.label, v.lang
+SELECT v.type, v.value, p.label, v.lang, v.uri
 FROM value v
 INNER JOIN property p ON p.id = v.property_id
 INNER JOIN resource r ON v.resource_id = r.id
