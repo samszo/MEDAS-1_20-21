@@ -1,0 +1,263 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix do : <https://recruteursdedonateurs.org/onto/do#> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#>.
+
+<https://recruteursdedonateurs.org/onto/do#> a owl:Ontology ;
+    dcterms:title "Don générosité et altruisme" .
+do:recruteur a rdfs:Class ;
+    rdfs:label "recruteur";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:coor_ban a rdfs:Class ;
+    rdfs:label "coordonnées bancaires donateur";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:donateur a rdfs:Class ;
+    rdfs:label "donateur";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:association a rdfs:Class ;
+    rdfs:label "association";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:contact a rdfs:Class ;
+    rdfs:label "contact";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:contrat a rdfs:Class ;
+    rdfs:label "contrat";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:bulletin_paie a rdfs:Class ;
+    rdfs:label "bulletin de paie";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:adhesion a rdfs:Class ;
+    rdfs:label "adhesion";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:coor_ban_rec a rdfs:Class ;
+    rdfs:label "coordonnées bancaires recruteur";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+ 
+do:rec_nom a rdf:Property  ;
+    rdfs:label "nom recruteur";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:rec_prenom a rdf:Property  ;
+    rdfs:label "prénom recruteur";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:rec_naissance a rdf:Property  ;
+    rdfs:label "date de naissance recruteur";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:rec_statut a rdf:Property  ;
+    rdfs:label "statut en cours du recruteur";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:rec_heure_t a rdf:Property  ;
+    rdfs:label "nombre d'heures de terrain du recruteur";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:rec_heure_r a rdf:Property  ;
+rdfs:label "nombre d'heures payées du recruteur";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:rec_numero_secu a rdf:Property  ;
+    rdfs:label "N° sécu sociale du recruteur";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:don_type a rdf:Property  ;
+    rdfs:label "type de donateur";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:don_nom a rdf:Property  ;
+    rdfs:label "nom donateur";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:don_prenom a rdf:Property  ;
+    rdfs:label "prénom donateur";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:don_genre a rdf:Property  ;
+    rdfs:label "genre donateur";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:don_naissance a rdf:Property  ;
+    rdfs:label "date de dnaissance du donateur";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:ass_nom a rdf:Property  ;
+    rdfs:label "nom de l'association";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:ass_statut a rdf:Property  ;
+    rdfs:label "statut en cours de l'association";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:ass_heure_recrut a rdf:Property  ;
+    rdfs:label "heures recrutées pour l'association";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:adresse a rdf:Property  ;
+    rdfs:label "adresse donateur recruteur ou asso";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:ville a rdf:Property  ;
+    rdfs:label "ville donateur recruteur ou asso";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:code_postale a rdf:Property  ;
+    rdfs:label "code postale donateur recruteur ou asso";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:tel a rdf:Property  ;
+    rdfs:label "téléphone postale donateur recruteur ou asso";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:mail a rdf:Property  ;
+    rdfs:label "adresse mail postale donateur recruteur ou asso";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:cont_type a rdf:Property  ;
+    rdfs:label "Type de contrat du recruteur";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:cont_statut a rdf:Property  ;
+    rdfs:label "statut du contrat du recruteur";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:cont_debut a rdf:Property  ;
+    rdfs:label "date de début du contrat du recruteur";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:cont_fin a rdf:Property  ;
+    rdfs:label "date de fin du contrat du recruteur";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:cont_heure a rdf:Property  ;
+    rdfs:label "heures prévues pour le contrat du recruteur";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:cont_taux a rdf:Property  ;
+    rdfs:label "taux horaire du contrat du recruteur";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:bul_brut a rdf:Property  ;
+rdfs:label "montant brut du salaire";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:bul_debut a rdf:Property  ;
+    rdfs:label "date de début de la période du bulletin";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:bul_din a rdf:Property  ;
+    rdfs:label "date de fin de la période du bulletin";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:bul_numero a rdf:Property  ;
+    rdfs:label "numéro du bulletin";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:ad_montant a rdf:Property  ;
+    rdfs:label "montant de l'adhésion";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:ad_statut a rdf:Property  ;
+    rdfs:label "statut en cours l'adhésion";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:ad_date_debut a rdf:Property  ;
+    rdfs:label "date de signature début adhésion";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:ad_date_fin a rdf:Property  ;
+    rdfs:label "date de fin arrêt adhésion";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:coor_ban_ib a rdf:Property  ;
+    rdfs:label "coor ban ib";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:coor_ban_bi a rdf:Property  ;
+    rdfs:label "coor ban bi";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+do:coor_ban_ib_rec a rdf:Property  ;
+    rdfs:label "coor ban ib recruteur";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+do:coor_ban_bi_rec a rdf:Property  ;
+    rdfs:label "coor ban bi recruteur";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:association_id_associatio a rdf:Property  ;
+    rdfs:label "L'adhésion concerne l'association id";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:donateur_id_associatio a rdf:Property  ;
+    rdfs:label "L'adhésion concerne le donateur id";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:recruteur_id_associatio a rdf:Property  ;
+    rdfs:label "Le recruteur à l'origine de l'adhésion";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
