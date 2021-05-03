@@ -1,0 +1,44 @@
+{
+    "o:label": "adhesion",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "created",
+            "label": "Date Created"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "issued",
+            "label": "Date Issued"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/dbpedia.org\/ontology\/",
+            "vocabulary_label": "dbpedia",
+            "local_name": "endowment",
+            "label": "endowment ($)"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "http:\/\/purl.org\/ontology\/bibo\/",
+        "vocabulary_label": "Bibliographic Ontology",
+        "local_name": "DocumentStatus",
+        "label": "Document Status"
+    }
+}

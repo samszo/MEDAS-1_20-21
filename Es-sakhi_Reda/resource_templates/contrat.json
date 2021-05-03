@@ -1,0 +1,55 @@
+{
+    "o:label": "contrat",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "type",
+            "label": "Type"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/dbpedia.org\/ontology\/",
+            "vocabulary_label": "dbpedia",
+            "local_name": "start",
+            "label": "start"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/dbpedia.org\/ontology\/",
+            "vocabulary_label": "dbpedia",
+            "local_name": "endDate",
+            "label": "end date"
+        },
+        {
+            "o:alternate_label": "Salary",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/dbpedia.org\/ontology\/",
+            "vocabulary_label": "dbpedia",
+            "local_name": "salary",
+            "label": "salary ($)"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "http:\/\/purl.org\/ontology\/bibo\/",
+        "vocabulary_label": "Bibliographic Ontology",
+        "local_name": "LegalDocument",
+        "label": "Legal Document"
+    }
+}
