@@ -1,0 +1,99 @@
+{
+    "o:label": "recruteur pap",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/recruteursdedonateurs.org\/onto\/do#",
+            "vocabulary_label": "Don g\u00e9n\u00e9rosit\u00e9 et altruisme",
+            "local_name": "rec_nom",
+            "label": "nom recruteur"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/recruteursdedonateurs.org\/onto\/do#",
+            "vocabulary_label": "Don g\u00e9n\u00e9rosit\u00e9 et altruisme",
+            "local_name": "rec_prenom",
+            "label": "pr\u00e9nom recruteur"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/recruteursdedonateurs.org\/onto\/do#",
+            "vocabulary_label": "Don g\u00e9n\u00e9rosit\u00e9 et altruisme",
+            "local_name": "rec_naissance",
+            "label": "date de naissance recruteur"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/recruteursdedonateurs.org\/onto\/do#",
+            "vocabulary_label": "Don g\u00e9n\u00e9rosit\u00e9 et altruisme",
+            "local_name": "rec_statut",
+            "label": "statut en cours du recruteur"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/recruteursdedonateurs.org\/onto\/do#",
+            "vocabulary_label": "Don g\u00e9n\u00e9rosit\u00e9 et altruisme",
+            "local_name": "rec_heure_t",
+            "label": "nombre d'heures de terrain du recruteur"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/recruteursdedonateurs.org\/onto\/do#",
+            "vocabulary_label": "Don g\u00e9n\u00e9rosit\u00e9 et altruisme",
+            "local_name": "rec_heure_r",
+            "label": "nombre d'heures pay\u00e9es du recruteur"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/recruteursdedonateurs.org\/onto\/do#",
+            "vocabulary_label": "Don g\u00e9n\u00e9rosit\u00e9 et altruisme",
+            "local_name": "rec_numero_secu",
+            "label": "N\u00b0 s\u00e9cu sociale du recruteur"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "title",
+            "label": "Title"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/recruteursdedonateurs.org\/onto\/do#",
+        "vocabulary_label": "Don g\u00e9n\u00e9rosit\u00e9 et altruisme",
+        "local_name": "recruteur",
+        "label": "recruteur"
+    }
+}

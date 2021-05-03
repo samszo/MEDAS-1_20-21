@@ -1,0 +1,99 @@
+{
+    "o:label": "bulletin d'adh\u00e9sion pap",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/recruteursdedonateurs.org\/onto\/do#",
+            "vocabulary_label": "Don g\u00e9n\u00e9rosit\u00e9 et altruisme",
+            "local_name": "ad_montant",
+            "label": "montant de l'adh\u00e9sion"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/recruteursdedonateurs.org\/onto\/do#",
+            "vocabulary_label": "Don g\u00e9n\u00e9rosit\u00e9 et altruisme",
+            "local_name": "ad_date_fin",
+            "label": "date de fin arr\u00eat adh\u00e9sion"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/recruteursdedonateurs.org\/onto\/do#",
+            "vocabulary_label": "Don g\u00e9n\u00e9rosit\u00e9 et altruisme",
+            "local_name": "ad_date_debut",
+            "label": "date de signature d\u00e9but adh\u00e9sion"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/recruteursdedonateurs.org\/onto\/do#",
+            "vocabulary_label": "Don g\u00e9n\u00e9rosit\u00e9 et altruisme",
+            "local_name": "ad_statut",
+            "label": "statut en cours l'adh\u00e9sion"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/recruteursdedonateurs.org\/onto\/do#",
+            "vocabulary_label": "Don g\u00e9n\u00e9rosit\u00e9 et altruisme",
+            "local_name": "recruteur_id_associatio",
+            "label": "Le recruteur \u00e0 l'origine de l'adh\u00e9sion"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/recruteursdedonateurs.org\/onto\/do#",
+            "vocabulary_label": "Don g\u00e9n\u00e9rosit\u00e9 et altruisme",
+            "local_name": "donateur_id_associatio",
+            "label": "L'adh\u00e9sion concerne le donateur id"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/recruteursdedonateurs.org\/onto\/do#",
+            "vocabulary_label": "Don g\u00e9n\u00e9rosit\u00e9 et altruisme",
+            "local_name": "association_id_associatio",
+            "label": "L'adh\u00e9sion concerne l'association id"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "title",
+            "label": "Title"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/recruteursdedonateurs.org\/onto\/do#",
+        "vocabulary_label": "Don g\u00e9n\u00e9rosit\u00e9 et altruisme",
+        "local_name": "adhesion",
+        "label": "adhesion"
+    }
+}

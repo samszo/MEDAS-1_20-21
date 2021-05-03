@@ -1,0 +1,66 @@
+{
+    "o:label": "bulletin de paie pap",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/recruteursdedonateurs.org\/onto\/do#",
+            "vocabulary_label": "Don g\u00e9n\u00e9rosit\u00e9 et altruisme",
+            "local_name": "bul_debut",
+            "label": "date de d\u00e9but de la p\u00e9riode du bulletin"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/recruteursdedonateurs.org\/onto\/do#",
+            "vocabulary_label": "Don g\u00e9n\u00e9rosit\u00e9 et altruisme",
+            "local_name": "bul_din",
+            "label": "date de fin de la p\u00e9riode du bulletin"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/recruteursdedonateurs.org\/onto\/do#",
+            "vocabulary_label": "Don g\u00e9n\u00e9rosit\u00e9 et altruisme",
+            "local_name": "bul_numero",
+            "label": "num\u00e9ro du bulletin"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/recruteursdedonateurs.org\/onto\/do#",
+            "vocabulary_label": "Don g\u00e9n\u00e9rosit\u00e9 et altruisme",
+            "local_name": "bul_brut",
+            "label": "montant brut du salaire"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "title",
+            "label": "Title"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/recruteursdedonateurs.org\/onto\/do#",
+        "vocabulary_label": "Don g\u00e9n\u00e9rosit\u00e9 et altruisme",
+        "local_name": "bulletin_paie",
+        "label": "bulletin de paie"
+    }
+}

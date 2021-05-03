@@ -1,0 +1,99 @@
+{
+    "o:label": "contrat pap",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/recruteursdedonateurs.org\/onto\/do#",
+            "vocabulary_label": "Don g\u00e9n\u00e9rosit\u00e9 et altruisme",
+            "local_name": "cont_type",
+            "label": "Type de contrat du recruteur"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/recruteursdedonateurs.org\/onto\/do#",
+            "vocabulary_label": "Don g\u00e9n\u00e9rosit\u00e9 et altruisme",
+            "local_name": "cont_statut",
+            "label": "statut du contrat du recruteur"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/recruteursdedonateurs.org\/onto\/do#",
+            "vocabulary_label": "Don g\u00e9n\u00e9rosit\u00e9 et altruisme",
+            "local_name": "cont_debut",
+            "label": "date de d\u00e9but du contrat du recruteur"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/recruteursdedonateurs.org\/onto\/do#",
+            "vocabulary_label": "Don g\u00e9n\u00e9rosit\u00e9 et altruisme",
+            "local_name": "cont_fin",
+            "label": "date de fin du contrat du recruteur"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/recruteursdedonateurs.org\/onto\/do#",
+            "vocabulary_label": "Don g\u00e9n\u00e9rosit\u00e9 et altruisme",
+            "local_name": "cont_heure",
+            "label": "heures pr\u00e9vues pour le contrat du recruteur"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/recruteursdedonateurs.org\/onto\/do#",
+            "vocabulary_label": "Don g\u00e9n\u00e9rosit\u00e9 et altruisme",
+            "local_name": "cont_taux",
+            "label": "taux horaire du contrat du recruteur"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/recruteursdedonateurs.org\/onto\/do#",
+            "vocabulary_label": "Don g\u00e9n\u00e9rosit\u00e9 et altruisme",
+            "local_name": "bul_brut",
+            "label": "montant brut du salaire"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "title",
+            "label": "Title"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/recruteursdedonateurs.org\/onto\/do#",
+        "vocabulary_label": "Don g\u00e9n\u00e9rosit\u00e9 et altruisme",
+        "local_name": "contrat",
+        "label": "contrat"
+    }
+}

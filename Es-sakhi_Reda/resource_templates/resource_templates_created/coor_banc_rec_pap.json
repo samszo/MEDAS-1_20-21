@@ -1,0 +1,33 @@
+{
+    "o:label": "coor_banc_rec_pap",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/recruteursdedonateurs.org\/onto\/do#",
+            "vocabulary_label": "Don g\u00e9n\u00e9rosit\u00e9 et altruisme",
+            "local_name": "coor_ban_ib_rec",
+            "label": "coor ban ib recruteur"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/recruteursdedonateurs.org\/onto\/do#",
+            "vocabulary_label": "Don g\u00e9n\u00e9rosit\u00e9 et altruisme",
+            "local_name": "coor_ban_bi_rec",
+            "label": "coor ban bi recruteur"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/recruteursdedonateurs.org\/onto\/do#",
+        "vocabulary_label": "Don g\u00e9n\u00e9rosit\u00e9 et altruisme",
+        "local_name": "coor_ban_rec",
+        "label": "coordonn\u00e9es bancaires recruteur"
+    }
+}
