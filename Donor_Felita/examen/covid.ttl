@@ -1,0 +1,50 @@
+@prefix covid: <http://test_covid/onto/covid#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix km4city: <http://www.disit.org/km4city/schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#>.
+
+<http://test_covid/onto/covid#> a owl:Ontology ;
+	dcterms:title "Tests COVID" .
+	
+covid:Test a rdfs:Class ;
+rdfs:label "Test";
+	rdfs:domain o:Resource ;
+	vs:term_status "experimental" .
+
+covid:Patient a rdfs:Class ;
+rdfs:label "Patient";
+	rdfs:domain o:Resource ;
+	vs:term_status "experimental" .
+	
+covid:Rendez_vous a rdfs:Class ;
+rdfs:label "Rendez_vous";
+	rdfs:domain o:Resource ;
+	vs:term_status "experimental" .
+
+	
+covid:idTest a rdf:Property ;
+rdfs:label "idTest";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .	
+covid:idPatient a rdf:Property ;
+rdfs:label "idPatient";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .	
+covid:idRendez_vous a rdf:Property ;
+rdfs:label "idRendez_vous";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+covid:rendez_vous_has_test a rdf:Property ;
+rdfs:label "rendez_vous_has_test";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
