@@ -1,0 +1,122 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix do : <https://testcoco.org/onto/do#> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#>.
+
+<https://testcoco.org/onto/do#> a owl:Ontology ;
+    dcterms:title "Suivi resultat et stock de test" .
+
+
+do:patient a rdfs:Class ;
+    rdfs:label "patient";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:rendez_vous a rdfs:Class ;
+    rdfs:label "rendez_vous";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:test a rdfs:Class ;
+    rdfs:label "test";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:stock a rdfs:Class ;
+    rdfs:label "stock";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+ 
+do:pa_nom a rdf:Property  ;
+    rdfs:label "nom patient";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:pa_date_naissance a rdf:Property  ;
+    rdfs:label "date de naissance du patient";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:pa_num_secu a rdf:Property  ;
+    rdfs:label "numéro de sécurité sociale";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:pa_tel a rdf:Property  ;
+    rdfs:label "téléphone du patient";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:pa_mail a rdf:Property  ;
+    rdfs:label "mail du patient";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:pa_adresse a rdf:Property  ;
+    rdfs:label "adresse du patient";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:pa_ville a rdf:Property  ;
+rdfs:label "ville du patient";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:rv_date a rdf:Property  ;
+    rdfs:label "date du rendez-vous";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:rv_heure a rdf:Property  ;
+    rdfs:label "heure du rendez-vous";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:patient_id_patient a rdf:Property  ;
+    rdfs:label "concerne le patien à l'id";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:te_date a rdf:Property  ;
+    rdfs:label "test effectué à la date";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:te_heure a rdf:Property  ;
+    rdfs:label "test effectué à l'heure";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:te_resultat a rdf:Property  ;
+    rdfs:label "résultat du test effectué";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+do:rendez_vous_id_rendez_vous a rdf:Property  ;
+    rdfs:label "le test coorespond au rdv à l'id";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:test_id_test a rdf:Property  ;
+    rdfs:label "mise à jour du stock suite au test id";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:st_quantite_initial a rdf:Property  ;
+    rdfs:label "stock intial";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+do:st_quantite_maj a rdf:Property  ;
+    rdfs:label "quantité de test mise à jour";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
