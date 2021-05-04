@@ -1,0 +1,110 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix covid: <https://covidlikecoviderse.covid-verse.fr/onto/covid#> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#>.
+
+<https://covidlikecoviderse.covid-verse.fr/onto/covid#> a owl:Ontology ;
+    dcterms:title "Gestion du Covid" .
+	
+covid:tests a rdfs:Class ;
+rdfs:label "tests"@fr;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+	
+covid:testedpatient a rdfs:Class ;
+rdfs:label "patients testés"@fr;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+	
+covid:patientforrendezvous a rdfs:Class ;
+rdfs:label "patients pour rendez-vous"@fr;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+	
+covid:planning a rdfs:Class ;
+rdfs:label "planning"@fr;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+	
+
+
+
+covid:nom a rdf:Property ;
+rdfs:label "nom"@fr;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+covid:prenom a rdf:Property ;
+rdfs:label "prénom"@fr;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+covid:age a rdf:Property ;
+rdfs:label "âge"@fr;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+	
+covid:ville a rdf:Property ;
+rdfs:label "ville"@fr;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+	
+covid:mainsymptom a rdf:Property ;
+rdfs:label "symptome principal"@fr;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+	
+covid:typetest a rdf:Property ;
+rdfs:label "type de test"@fr;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+	
+covid:unitcost a rdf:Property ;
+rdfs:label "coût unitaire"@fr;
+rdfs:label "email"@en;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+	
+covid:importcountry a rdf:Property ;
+rdfs:label "pays d'import"@fr;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+	
+covid:date a rdf:Property ;
+rdfs:label "date"@fr;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+	
+covid:totalstock a rdf:Property ;
+rdfs:label "stock total"@fr;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+	
+	
+
+
+
+covid:testedby a rdf:Property ;
+rdfs:label "testé avec"@fr;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+covid:testeddate a rdf:Property ;
+rdfs:label "testé le"@fr;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+	
+covid:isavailable a rdf:Property ;
+rdfs:label "est disponible le"@fr;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+covid:rendezvousdate a rdf:Property ;
+rdfs:label "a rendez-vous le"@fr;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
