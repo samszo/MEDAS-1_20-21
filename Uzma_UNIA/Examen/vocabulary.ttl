@@ -1,0 +1,49 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix testcovid: <https://test_covid/testing/covid#> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#>.
+
+<https://test_covid/testing/covid#> a owl:Ontology ;
+    dcterms:title "test_covid" .
+testcovid:patient a rdfs:Class ;
+rdfs:label "patient";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+testcovid:centre de depistage a rdfs:Class ;
+rdfs:label "centre de depistage";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+testcovid:tests a rdfs:Class ;
+rdfs:label "test";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+testcovid:centre de depistage a rdf:Property ;
+rdfs:label "nb_patients_testes";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+    testcovid:centre de depistage a rdf:Property ;
+rdfs:label "num_patients_rdv";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+    testcovid:patients a rdf:Property ;
+rdfs:label "raison_test";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+    testcovid:patient a rdf:Property ;
+rdfs:label "age";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+    testcovid:test a rdf:Property ;
+rdfs:label "date";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+    testcovid:test a rdf:Property ;
+rdfs:label "qtite_tests_dispo";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
