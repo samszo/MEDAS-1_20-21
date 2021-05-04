@@ -1,0 +1,65 @@
+[
+  {
+    "@context": "http://localhost/omeka-s/api-context",
+    "@id": "http://localhost/omeka-s/api/items/7",
+    "@type": [
+      "o:Item",
+      "co:Patient"
+    ],
+    "o:id": 7,
+    "o:is_public": true,
+    "o:owner": {
+      "@id": "http://localhost/omeka-s/api/users/1",
+      "o:id": 1
+    },
+    "o:resource_class": {
+      "@id": "http://localhost/omeka-s/api/resource_classes/173",
+      "o:id": 173
+    },
+    "o:resource_template": {
+      "@id": "http://localhost/omeka-s/api/resource_templates/7",
+      "o:id": 7
+    },
+    "o:thumbnail": null,
+    "o:title": "Titouan",
+    "thumbnail_display_urls": {
+      "large": null,
+      "medium": null,
+      "square": null
+    },
+    "o:created": {
+      "@value": "2021-05-04T11:16:23+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:modified": {
+      "@value": "2021-05-04T11:16:23+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:media": [],
+    "o:item_set": [],
+    "o:site": [
+      {
+        "@id": "http://localhost/omeka-s/api/sites/1",
+        "o:id": 1
+      }
+    ],
+    "dcterms:title": [
+      {
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "Titouan"
+      }
+    ],
+    "co:idPatient": [
+      {
+        "type": "literal",
+        "property_id": 362,
+        "property_label": "idPatient",
+        "is_public": true,
+        "@value": "12"
+      }
+    ]
+  }
+]
