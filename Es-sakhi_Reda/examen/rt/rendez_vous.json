@@ -1,0 +1,66 @@
+{
+    "o:label": "rendez_vous",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "title",
+            "label": "Title"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "description",
+            "label": "Description"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/testcoco.org\/onto\/do#",
+            "vocabulary_label": "suivi stock et resultat",
+            "local_name": "rv_date",
+            "label": "date du rendez-vous"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/testcoco.org\/onto\/do#",
+            "vocabulary_label": "suivi stock et resultat",
+            "local_name": "rv_heure",
+            "label": "heure du rendez-vous"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/testcoco.org\/onto\/do#",
+            "vocabulary_label": "suivi stock et resultat",
+            "local_name": "patient_id_patient",
+            "label": "concerne le patien \u00e0 l'id"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/testcoco.org\/onto\/do#",
+        "vocabulary_label": "suivi stock et resultat",
+        "local_name": "rendez_vous",
+        "label": "rendez_vous"
+    }
+}

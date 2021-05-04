@@ -1,0 +1,77 @@
+{
+    "o:label": "test",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "title",
+            "label": "Title"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "description",
+            "label": "Description"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/testcoco.org\/onto\/do#",
+            "vocabulary_label": "suivi stock et resultat",
+            "local_name": "te_date",
+            "label": "test effectu\u00e9 \u00e0 la date"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/testcoco.org\/onto\/do#",
+            "vocabulary_label": "suivi stock et resultat",
+            "local_name": "te_heure",
+            "label": "test effectu\u00e9 \u00e0 l'heure"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/testcoco.org\/onto\/do#",
+            "vocabulary_label": "suivi stock et resultat",
+            "local_name": "te_resultat",
+            "label": "r\u00e9sultat du test effectu\u00e9"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/testcoco.org\/onto\/do#",
+            "vocabulary_label": "suivi stock et resultat",
+            "local_name": "rendez_vous_id_rendez_vous",
+            "label": "le test coorespond au rdv \u00e0 l'id"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/testcoco.org\/onto\/do#",
+        "vocabulary_label": "suivi stock et resultat",
+        "local_name": "test",
+        "label": "test"
+    }
+}
