@@ -1,0 +1,133 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix tc: <https://tests_covid.fr/onto/tc#> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#>.
+
+<https://tests_covid.fr/onto/tc#> a owl:Ontology ;
+    dcterms:title "Tests Covid-19" .
+
+
+tc:Centre a rdfs:Class ;
+rdfs:label "Centre Dépistage";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+tc:Adr_C a rdf:Property ;
+rdfs:label "Adresse du Centre";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+tc:Ville_C a rdf:Property ;
+rdfs:label "Ville du Centre";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+tc:CP_C a rdf:Property ;
+rdfs:label "Code Postal du Centre";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+tc:Patient a rdfs:Class ;
+rdfs:label "Patient";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+tc:Nom_P a rdf:Property ;
+rdfs:label "Nom du Patient";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+tc:Prenom_P a rdf:Property ;
+rdfs:label "Prenom du Patient";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+tc:Tests a rdfs:Class ;
+rdfs:label "Type de tests de dépistage";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+tc:Type_T a rdf:Property ;
+rdfs:label "Type de tests";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+tc:Depister a rdfs:Class ;
+rdfs:label "Tests de dépistage";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+tc:Jour_D a rdf:Property ;
+rdfs:label "Jour du test";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+tc:Resultat a rdf:Property ;
+rdfs:label "Resultat du test";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+tc:DepisterhasCentre a rdf:Property ;
+rdfs:label "Centre du test de dépistage";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+tc:DepisterhasTest a rdf:Property ;
+rdfs:label "Type de test du test de dépistage";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+tc:DepisterhasPatient a rdf:Property ;
+rdfs:label "Patient faisant le test de dépistage";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+tc:Contenir a rdfs:Class ;
+rdfs:label "Tests par Centre";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+tc:Stock a rdf:Property ;
+rdfs:label "Jour du test";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+tc:ContenirhasTests a rdf:Property ;
+rdfs:label "Stock par Type de Tests";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+tc:ContenirhasCentre a rdf:Property ;
+rdfs:label "Stock par Centre";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+tc:Rendez-vous a rdfs:Class ;
+rdfs:label "Rendez-vous pris";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+tc:RdV a rdf:Property ;
+rdfs:label "Jour et horaire du Rendez-vous";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+tc:RdVhasPatient a rdf:Property ;
+rdfs:label "Rdv du Patient";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+tc:RdVhasCentre a rdf:Property ;
+rdfs:label "Centre du RdV";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
