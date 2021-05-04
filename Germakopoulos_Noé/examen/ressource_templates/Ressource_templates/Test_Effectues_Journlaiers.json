@@ -1,0 +1,72 @@
+{
+    "o:label": "Test Effectues Journlaiers",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/covid.exammedas.fr\/onto\/covid#",
+            "vocabulary_label": "Covid Exam",
+            "local_name": "ID",
+            "label": "Identifiant_Labo"
+        },
+        {
+            "o:alternate_label": "Nombre de test total effectues",
+            "o:alternate_comment": null,
+            "o:is_required": true,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/covid.exammedas.fr\/onto\/covid#",
+            "vocabulary_label": "Covid Exam",
+            "local_name": "nbtotal",
+            "label": "Nombre de test total disponibles"
+        },
+        {
+            "o:alternate_label": "Nombre de test PCR effectu\u00e9s",
+            "o:alternate_comment": null,
+            "o:is_required": true,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/covid.exammedas.fr\/onto\/covid#",
+            "vocabulary_label": "Covid Exam",
+            "local_name": "nbPCR",
+            "label": "Nombre de test PCR disponibles"
+        },
+        {
+            "o:alternate_label": "Nombre de test S\u00e9rologiques effectu\u00e9s",
+            "o:alternate_comment": null,
+            "o:is_required": true,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/covid.exammedas.fr\/onto\/covid#",
+            "vocabulary_label": "Covid Exam",
+            "local_name": "nbS\u00e9ro",
+            "label": "Nombre de test S\u00e9rologiques disponibles"
+        },
+        {
+            "o:alternate_label": "Nombre de test Antig\u00e9niques effectu\u00e9s",
+            "o:alternate_comment": null,
+            "o:is_required": true,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/covid.exammedas.fr\/onto\/covid#",
+            "vocabulary_label": "Covid Exam",
+            "local_name": "nbAnti",
+            "label": "Nombre de test antig\u00e9niques disponibles"
+        }
+    ],
+    "o:title_property": {
+        "vocabulary_namespace_uri": "https:\/\/covid.exammedas.fr\/onto\/covid#",
+        "vocabulary_label": "Covid Exam",
+        "local_name": "nbAnti",
+        "label": "Nombre de test antig\u00e9niques disponibles"
+    },
+    "o:description_property": {
+        "vocabulary_namespace_uri": "https:\/\/covid.exammedas.fr\/onto\/covid#",
+        "vocabulary_label": "Covid Exam",
+        "local_name": "nbAnti",
+        "label": "Nombre de test antig\u00e9niques disponibles"
+    }
+}

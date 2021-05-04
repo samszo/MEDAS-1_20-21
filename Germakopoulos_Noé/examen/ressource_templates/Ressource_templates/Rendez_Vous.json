@@ -1,0 +1,60 @@
+{
+    "o:label": "Rendez-Vous",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/covid.exammedas.fr\/onto\/covid#",
+            "vocabulary_label": "Covid Exam",
+            "local_name": "numss",
+            "label": "Num\u00e9ro de S\u00e9curit\u00e9 Sociale"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/covid.exammedas.fr\/onto\/covid#",
+            "vocabulary_label": "Covid Exam",
+            "local_name": "ID",
+            "label": "Identifiant_Labo"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/covid.exammedas.fr\/onto\/covid#",
+            "vocabulary_label": "Covid Exam",
+            "local_name": "datejour",
+            "label": "Date"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/covid.exammedas.fr\/onto\/covid#",
+            "vocabulary_label": "Covid Exam",
+            "local_name": "heure",
+            "label": "Heure"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/covid.exammedas.fr\/onto\/covid#",
+            "vocabulary_label": "Covid Exam",
+            "local_name": "typetest",
+            "label": "Type de test"
+        }
+    ]
+}
