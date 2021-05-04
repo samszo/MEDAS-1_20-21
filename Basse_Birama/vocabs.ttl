@@ -1,0 +1,41 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix eco: <https://coursdedanse.fr/onto/eco#> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#>.
+
+<https://coursdedanse.fr/onto/eco#> a owl:Ontology ;
+    dcterms:title "cours de danse" .
+eco:eleve a rdfs:Class ;
+rdfs:label "eleve";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+eco:ecoleseance a rdfs:Class ;
+rdfs:label "ecoleseance";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+eco:eleve a rdfs:Class ;
+rdfs:label "eleve";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+eco:danse a rdfs:Class ;
+rdfs:label "danse";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+eco:seance a rdfs:Class ;
+rdfs:label "seance";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+eco:eleve_has_seance a rdfs:Class ;
+rdfs:label "eleve_has_seance";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+eco:SeanceHasCours a rdf:Property ;
+rdfs:label "La séance à plusieurs eleve";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
