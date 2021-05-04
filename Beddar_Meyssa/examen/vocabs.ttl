@@ -1,0 +1,100 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix tstcov: <https://gestiontestscovid.fr/onto/tstcov#> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#>.
+
+<https://gestiontestscovid.fr/onto/tstcov#> a owl:Ontology ;
+    dcterms:title "Gestion tests covid" .
+
+tstcov:Patient a rdfs:Class ;
+    rdfs:label "Patient" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+tstcov:RDVtest a rdfs:Class ;
+    rdfs:label "RDV test" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+tstcov:Test a rdfs:Class ;
+    rdfs:label "Test" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+tstcov:Commande a rdfs:Class ;
+    rdfs:label "Commande" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+tstcov:Fournisseur a rdfs:Class ;
+    rdfs:label "Fournisseur" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+tstcov:nom a rdf:Property ;
+    rdfs:label "a pour nom" ;
+    rdfs:domain o:Resource .
+
+tstcov:prenom a rdf:Property ;
+    rdfs:label "a pour prenom" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+tstcov:adresse a rdf:Property ;
+    rdfs:label "adresse" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+tstcov:ville a rdf:Property ;
+    rdfs:label "ville" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+tstcov:codepostal a rdf:Property ;
+    rdfs:label "code postal" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+tstcov:Datenaissance a rdf:Property ;
+    rdfs:label "Date de naissance" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+tstcov:Lieunaissance a rdf:Property ;
+    rdfs:label "Lieu de naissance" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+tstcov:numSS a rdf:Property ;
+    rdfs:label "Numero SS" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+tstcov:date a rdf:Property ;
+    rdfs:label "Date" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+tstcov:motif a rdf:Property ;
+    rdfs:label "Motif de dépistage" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+tstcov:libelle a rdf:Property ;
+    rdfs:label "Libellé du test" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+tstcov:marque a rdf:Property ;
+    rdfs:label "Marque du test" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+tstcov:quantite a rdf:Property ;
+    rdfs:label "Quantité" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
