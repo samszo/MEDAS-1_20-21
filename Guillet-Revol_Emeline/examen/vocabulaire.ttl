@@ -97,7 +97,7 @@ rdfs:label "Tests par Centre";
     vs:term_status "experimental" .
 
 tc:Stock a rdf:Property ;
-rdfs:label "Jour du test";
+rdfs:label "Stock du test";
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
