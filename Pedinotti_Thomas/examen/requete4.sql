@@ -1,0 +1,1 @@
+SELECT count(*) FROM `patients` WHERE date_rdv is not null and date_depistage is null

@@ -1,0 +1,1 @@
+SELECT * FROM `patients` WHERE date_depistage = CURRENT_DATE() 

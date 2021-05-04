@@ -1,0 +1,1 @@
+SELECT SUM(nbr_test) FROM `centres de depistage`
