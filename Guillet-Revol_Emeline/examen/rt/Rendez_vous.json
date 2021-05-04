@@ -1,0 +1,44 @@
+{
+    "o:label": "Rendez-vous",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/tests_covid.fr\/onto\/tc#",
+            "vocabulary_label": "Tests Covid-19",
+            "local_name": "RdVhasCentre",
+            "label": "Centre du RdV"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/tests_covid.fr\/onto\/tc#",
+            "vocabulary_label": "Tests Covid-19",
+            "local_name": "RdVhasPatient",
+            "label": "Rdv du Patient"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/tests_covid.fr\/onto\/tc#",
+            "vocabulary_label": "Tests Covid-19",
+            "local_name": "RdV",
+            "label": "Jour et horaire du Rendez-vous"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/tests_covid.fr\/onto\/tc#",
+        "vocabulary_label": "Tests Covid-19",
+        "local_name": "Rendez-vous",
+        "label": "Rendez-vous pris"
+    }
+}
