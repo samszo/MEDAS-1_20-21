@@ -1,0 +1,72 @@
+{
+    "o:label": "Encadrant",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/gestion-test-covid.cnam.fr\/onto\/gtc#",
+            "vocabulary_label": "gestion_test_covid",
+            "local_name": "nom",
+            "label": "Nom"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/gestion-test-covid.cnam.fr\/onto\/gtc#",
+            "vocabulary_label": "gestion_test_covid",
+            "local_name": "prenom",
+            "label": "Prenom"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/gestion-test-covid.cnam.fr\/onto\/gtc#",
+            "vocabulary_label": "gestion_test_covid",
+            "local_name": "poste",
+            "label": "Poste"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/gestion-test-covid.cnam.fr\/onto\/gtc#",
+            "vocabulary_label": "gestion_test_covid",
+            "local_name": "tel_pro",
+            "label": "Tel pro"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "description",
+            "label": "Description"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/gestion-test-covid.cnam.fr\/onto\/gtc#",
+        "vocabulary_label": "gestion_test_covid",
+        "local_name": "encadrant",
+        "label": "Encadrant"
+    },
+    "o:title_property": {
+        "vocabulary_namespace_uri": "https:\/\/gestion-test-covid.cnam.fr\/onto\/gtc#",
+        "vocabulary_label": "gestion_test_covid",
+        "local_name": "nom",
+        "label": "Nom"
+    }
+}

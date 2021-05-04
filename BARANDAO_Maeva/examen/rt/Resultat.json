@@ -1,0 +1,50 @@
+{
+    "o:label": "Resultat",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/gestion-test-covid.cnam.fr\/onto\/gtc#",
+            "vocabulary_label": "gestion_test_covid",
+            "local_name": "has_rdv",
+            "label": "concernant le rdv"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/gestion-test-covid.cnam.fr\/onto\/gtc#",
+            "vocabulary_label": "gestion_test_covid",
+            "local_name": "pos_ou_neg",
+            "label": "Le r\u00e9sultat du test est-il positif ou n\u00e9gatif ?"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/gestion-test-covid.cnam.fr\/onto\/gtc#",
+            "vocabulary_label": "gestion_test_covid",
+            "local_name": "commentaire",
+            "label": "Commentaire(s)"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/gestion-test-covid.cnam.fr\/onto\/gtc#",
+        "vocabulary_label": "gestion_test_covid",
+        "local_name": "resultat",
+        "label": "R\u00e9sultat"
+    },
+    "o:title_property": {
+        "vocabulary_namespace_uri": "https:\/\/gestion-test-covid.cnam.fr\/onto\/gtc#",
+        "vocabulary_label": "gestion_test_covid",
+        "local_name": "has_rdv",
+        "label": "concernant le rdv"
+    }
+}

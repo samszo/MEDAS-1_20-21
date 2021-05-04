@@ -1,0 +1,108 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix gtc: <https://gestion-test-covid.cnam.fr/onto/gtc#> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#>.
+
+<https://gestion-test-covid.cnam.fr/onto/gtc#> a owl:Ontology ;
+    dcterms:title "Gestion Test Covid" .
+gtc:personne a rdfs:Class ;
+rdfs:label "Personne";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+gtc:test a rdfs:Class ;
+rdfs:label "Test";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+gtc:encadrant a rdfs:Class ;
+rdfs:label "Encadrant";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+gtc:rdv a rdfs:Class ;
+rdfs:label "RDV";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+gtc:resultat a rdfs:Class ;
+rdfs:label "Résultat";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+gtc:nom a rdf:Property ;
+rdfs:label "Nom";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+gtc:prenom a rdf:Property ;
+rdfs:label "Prenom";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .	
+gtc:age a rdf:Property ;
+rdfs:label "Age";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+gtc:adresse a rdf:Property ;
+rdfs:label "Adresse";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+gtc:nb_dispo a rdf:Property ;
+rdfs:label "Quantité disponible";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+	
+gtc:tel a rdf:Property ;
+rdfs:label "Tel";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+gtc:tel_pro a rdf:Property ;
+rdfs:label "Tel pro";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+gtc:poste a rdf:Property ;
+rdfs:label "Poste";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+gtc:heure a rdf:Property ;
+rdfs:label "Heure";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+gtc:avec_ordonnance a rdf:Property ;
+rdfs:label "Y a-t-il une ordonnance ?";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+gtc:lieu a rdf:Property ;
+rdfs:label "Lieu du test";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .	
+gtc:pos_ou_neg a rdf:Property ;
+rdfs:label "Le résultat du test est-il positif ou négatif ?";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+gtc:commentaire a rdf:Property ;
+rdfs:label "Commentaire(s)";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+gtc:has_encadrant a rdf:Property ;
+rdfs:label "encadré par";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+gtc:has_personne a rdf:Property ;
+rdfs:label "rdv pour";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+gtc:has_test a rdf:Property ;
+rdfs:label "avec le test";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+gtc:has_rdv a rdf:Property ;
+rdfs:label "concernant le rdv";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+
+
