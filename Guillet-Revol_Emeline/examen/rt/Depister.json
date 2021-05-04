@@ -1,0 +1,81 @@
+{
+    "o:label": "Depister",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": true,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "resource:item",
+                    "label": "Item"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/tests_covid.fr\/onto\/tc#",
+            "vocabulary_label": "Tests Covid-19",
+            "local_name": "DepisterhasCentre",
+            "label": "Centre du test de d\u00e9pistage"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": true,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "resource:item",
+                    "label": "Item"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/tests_covid.fr\/onto\/tc#",
+            "vocabulary_label": "Tests Covid-19",
+            "local_name": "DepisterhasPatient",
+            "label": "Patient faisant le test de d\u00e9pistage"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": true,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "resource:item",
+                    "label": "Item"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/tests_covid.fr\/onto\/tc#",
+            "vocabulary_label": "Tests Covid-19",
+            "local_name": "DepisterhasTest",
+            "label": "Type de test du test de d\u00e9pistage"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": true,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/tests_covid.fr\/onto\/tc#",
+            "vocabulary_label": "Tests Covid-19",
+            "local_name": "Jour_D",
+            "label": "Jour du test"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": true,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/tests_covid.fr\/onto\/tc#",
+            "vocabulary_label": "Tests Covid-19",
+            "local_name": "Resultat",
+            "label": "Resultat du test"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/tests_covid.fr\/onto\/tc#",
+        "vocabulary_label": "Tests Covid-19",
+        "local_name": "Depister",
+        "label": "Tests de d\u00e9pistage"
+    }
+}
