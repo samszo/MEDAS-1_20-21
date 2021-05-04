@@ -1,1 +1,1 @@
-SELECT COUNT(*) FROM `patients` WHERE date_rdv =  CURRENT_DATE()
+SELECT * FROM `patients` WHERE date_rdv =  CURRENT_DATE()
