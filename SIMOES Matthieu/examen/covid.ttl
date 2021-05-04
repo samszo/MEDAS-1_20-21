@@ -1,0 +1,104 @@
+@prefix covid: <http://test_covid/onto/covid#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix km4city: <http://www.disit.org/km4city/schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#>.
+
+<http://test_covid/onto/covid#> a owl:Ontology ;
+	dcterms:title "Tests COVID" .
+	
+covid:Tested_Individu a rdfs:Class ;
+rdfs:label "Individu Testé";
+	rdfs:domain o:Resource ;
+	vs:term_status "experimental" .
+
+covid:Test a rdfs:Class ;
+rdfs:label "Test";
+	rdfs:domain o:Resource ;
+	vs:term_status "experimental" .
+	
+covid:Individu a rdfs:Class ;
+rdfs:label "Individu";
+	rdfs:domain o:Resource ;
+	vs:term_status "experimental" .
+	
+covid:Centre_de_test a rdfs:Class ;
+rdfs:label "Centre de test";
+	rdfs:domain o:Resource ;
+	vs:term_status "experimental" .
+
+covid:Centre_de_test_has_Tested_Individu a rdfs:Class ;
+rdfs:label "Centre_de_test_has_Tested_Individu";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+covid:Centre_de_test_has_Individu a rdfs:Class ;
+rdfs:label "Centre_de_test_has_Individu";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+covid:Centre_de_test_has_Test a rdfs:Class ;
+rdfs:label "Centre_de_test_has_Test";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+	
+
+
+covid:idSeance a rdf:Property ;
+rdfs:label "idSeance";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+	
+covid:id_test a rdf:Property ;
+rdfs:label "id_test";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+	
+covid:id_testedindidivu a rdf:Property ;
+rdfs:label "id_testedindidivu";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+covid:id_indidivu a rdf:Property ;
+rdfs:label "id_indidivu";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+covid:tested_id_testedindividu a rdf:Property ;
+rdfs:label "test_id_testedindividu";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+covid:indiv_id_indidivu a rdf:Property ;
+rdfs:label "indiv_id_indidivu";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+covid:test_id_test a rdf:Property ;
+rdfs:label "test_id_test";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+covid:seance_id_seance a rdf:Property ;
+rdfs:label "seance_id_seance";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+covid:Centre_de_test_has_Tested_Individu a rdf:Class ;
+rdfs:label "Centre_de_test_has_Tested_Individu";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+covid:Centre_de_test_has_Individu a rdf:Class ;
+rdfs:label "Centre_de_test_has_Individu";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+covid:Centre_de_test_has_Test a rdf:Class ;
+rdfs:label "Centre_de_test_has_Test";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
