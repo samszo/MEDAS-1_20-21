@@ -1,0 +1,77 @@
+{
+    "o:label": "Cinemas",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/cinema.fr\/onto\/cine#",
+            "vocabulary_label": "Cinema Gestion",
+            "local_name": "nomCinema",
+            "label": "Nom Cinema"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/cinema.fr\/onto\/cine#",
+            "vocabulary_label": "Cinema Gestion",
+            "local_name": "adrCinema",
+            "label": "Adresse Cinema"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/cinema.fr\/onto\/cine#",
+            "vocabulary_label": "Cinema Gestion",
+            "local_name": "villeCinema",
+            "label": "Ville Cinema"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/cinema.fr\/onto\/cine#",
+            "vocabulary_label": "Cinema Gestion",
+            "local_name": "cpCinema",
+            "label": "CP Cinema"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/cinema.fr\/onto\/cine#",
+            "vocabulary_label": "Cinema Gestion",
+            "local_name": "FilmhasCinema",
+            "label": "Film d'un Cinema"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/cinema.fr\/onto\/cine#",
+            "vocabulary_label": "Cinema Gestion",
+            "local_name": "SallehasCinema",
+            "label": "Salle de Cinema"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/cinema.fr\/onto\/cine#",
+        "vocabulary_label": "Cinema Gestion",
+        "local_name": "Cinema",
+        "label": "Cinema"
+    }
+}

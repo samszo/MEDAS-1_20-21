@@ -1,0 +1,44 @@
+{
+    "o:label": "Acteur",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": "Pr\u00e9nom",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/xmlns.com\/foaf\/0.1\/",
+            "vocabulary_label": "Friend of a Friend",
+            "local_name": "firstName",
+            "label": "firstName"
+        },
+        {
+            "o:alternate_label": "Nom de Famille",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/xmlns.com\/foaf\/0.1\/",
+            "vocabulary_label": "Friend of a Friend",
+            "local_name": "lastName",
+            "label": "lastName"
+        },
+        {
+            "o:alternate_label": "Date Naissance",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/xmlns.com\/foaf\/0.1\/",
+            "vocabulary_label": "Friend of a Friend",
+            "local_name": "birthday",
+            "label": "birthday"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "http:\/\/dbpedia.org\/ontology\/Actor",
+        "vocabulary_label": "Acteur",
+        "local_name": "Actor",
+        "label": "acteur"
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "o:label": "Seance",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/cinema.fr\/onto\/cine#",
+            "vocabulary_label": "Cinema Gestion",
+            "local_name": "prixSeance",
+            "label": "Prix Seance"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/cinema.fr\/onto\/cine#",
+            "vocabulary_label": "Cinema Gestion",
+            "local_name": "dateSeance",
+            "label": "Date Seance"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/cinema.fr\/onto\/cine#",
+            "vocabulary_label": "Cinema Gestion",
+            "local_name": "horraireSeance",
+            "label": "Horraire Seance"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/cinema.fr\/onto\/cine#",
+            "vocabulary_label": "Cinema Gestion",
+            "local_name": "SeancehasSalle",
+            "label": "Salle de Seance"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/cinema.fr\/onto\/cine#",
+            "vocabulary_label": "Cinema Gestion",
+            "local_name": "SeancehasFilm",
+            "label": "Film de Seance"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/cinema.fr\/onto\/cine#",
+            "vocabulary_label": "Cinema Gestion",
+            "local_name": "SeancehasCinema",
+            "label": "Cinema de Seance"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/cinema.fr\/onto\/cine#",
+        "vocabulary_label": "Cinema Gestion",
+        "local_name": "Seance",
+        "label": "Seance"
+    }
+}

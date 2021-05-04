@@ -1,0 +1,44 @@
+{
+    "o:label": "Film",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": "Titre",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "title",
+            "label": "Title"
+        },
+        {
+            "o:alternate_label": "Dur\u00e9e",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/w3id.org\/sbeo",
+            "vocabulary_label": "SBEO",
+            "local_name": "timeDuration",
+            "label": "Time Duration"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/cinema.fr\/onto\/cine#",
+            "vocabulary_label": "Cinema Gestion",
+            "local_name": "FilmhasActeur",
+            "label": "Acteur du Film"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "http:\/\/purl.org\/ontology\/bibo\/",
+        "vocabulary_label": "Bibliographic Ontology",
+        "local_name": "Film",
+        "label": "Film"
+    }
+}
