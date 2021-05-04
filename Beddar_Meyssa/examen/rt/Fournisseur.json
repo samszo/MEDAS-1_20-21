@@ -1,0 +1,77 @@
+{
+    "o:label": "Fournisseur",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "title",
+            "label": "Title"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "description",
+            "label": "Description"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/gestiontestscovid.fr\/onto\/tstcov#",
+            "vocabulary_label": "Gestion tests covid",
+            "local_name": "nom",
+            "label": "a pour nom"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/gestiontestscovid.fr\/onto\/tstcov#",
+            "vocabulary_label": "Gestion tests covid",
+            "local_name": "adresse",
+            "label": "adresse"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/gestiontestscovid.fr\/onto\/tstcov#",
+            "vocabulary_label": "Gestion tests covid",
+            "local_name": "ville",
+            "label": "ville"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/gestiontestscovid.fr\/onto\/tstcov#",
+            "vocabulary_label": "Gestion tests covid",
+            "local_name": "codepostal",
+            "label": "code postal"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/gestiontestscovid.fr\/onto\/tstcov#",
+        "vocabulary_label": "Gestion tests covid",
+        "local_name": "Fournisseur",
+        "label": "Fournisseur"
+    }
+}
