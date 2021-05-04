@@ -1,0 +1,170 @@
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix covid: <https://covid.exammedas.fr/onto/covid#> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#>.
+
+<https://covid.exammedas.fr/onto/covid#> a owl:Ontology ;
+    dcterms:title "Exam Medas Covid" .
+
+covid:Laboratoire a rdfs:Class ;
+rdfs:label "Laboratoire";
+    rdfs:domain o:Resource ;
+    vs:term_status "exam" .
+
+covid:Personne a rdfs:Class ;
+rdfs:label "Personne";
+    rdfs:domain o:Resource ;
+    vs:term_status "exam" .
+
+covid:RendezVous a rdfs:Class ;
+rdfs:label "Rendez-vous";
+    rdfs:domain o:Resource ;
+    vs:term_status "exam" .
+
+covid:NombreTestDispoJournaliers a rdfs:Class ;
+rdfs:label "Nombre de Test Dispo Journaliers";
+    rdfs:domain o:Resource ;
+    vs:term_status "exam" .
+
+covid:TestEffectuesJournaliers a rdfs:Class ;
+rdfs:label "Test Effectués Journaliers";
+    rdfs:domain o:Resource ;
+    vs:term_status "exam" .
+
+covid:nom a rdf:Property ;
+    rdfs:label "Nom" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "exam" .
+
+
+covid:prenom a rdf:Property ;
+    rdfs:label "Prénom" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "exam" .
+
+
+covid:adresse a rdf:Property ;
+    rdfs:label "Adresse" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "exam" .
+
+covid:ville a rdf:Property ;
+    rdfs:label "Ville" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "exam" .
+
+covid:codepostal a rdf:Property ;
+    rdfs:label "Code Postal" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "exam" .
+
+
+
+covid:dpt a rdf:Property ;
+    rdfs:label "Département" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "exam" .
+
+
+covid:capaccueil a rdf:Property ;
+    rdfs:label "Capacité d'Accueil" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "exam" .
+
+
+
+covid:numss a rdf:Property ;
+    rdfs:label "Numéro de Sécurité Sociale" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "exam" .
+
+covid:datenaiss a rdf:Property ;
+    rdfs:label "Date de Naissance" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "exam" .
+
+
+covid:nbcomorb a rdf:Property ;
+    rdfs:label "Nombre de comorbidités" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "exam" .
+
+
+covid:idrdv a rdf:Property ;
+    rdfs:label "NUméro de Rendez-Vous" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "exam" .
+
+covid:datejour a rdf:Property ;
+    rdfs:label "Date" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "exam" .
+
+covid:heure a rdf:Property ;
+    rdfs:label "Heure" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "exam" .
+
+
+
+covid:typetest a rdf:Property ;
+    rdfs:label "Type de test" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "exam" .
+
+covid:nbtotal a rdf:Property ;
+    rdfs:label "Nombre de test total disponibles" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "exam" .
+
+
+covid:nbPCR a rdf:Property ;
+    rdfs:label "Nombre de test PCR disponibles" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "exam" .
+
+
+covid:nbAnti a rdf:Property ;
+    rdfs:label "Nombre de test antigéniques disponibles" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "exam" .
+
+covid:nbSéro a rdf:Property ;
+    rdfs:label "Nombre de test Sérologiques disponibles" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "exam" .
+
+
+covid:ID a rdf:Property ;
+    rdfs:label "Identifiant_Labo" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "exam" .
+
+covid:ID a rdf:Property ;
+    rdfs:label "Identifiant" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "exam" .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
