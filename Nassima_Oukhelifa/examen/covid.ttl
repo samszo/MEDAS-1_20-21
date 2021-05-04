@@ -1,0 +1,141 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix emc2: <https://covid.univ-paris8.fr/onto/emc2#> .
+@prefix teach: <http://linkedscience.org/teach/ns#> .
+@prefix schema: <http://schema.org/> .
+
+<https://covid.univ-paris8.fr/onto/emc29> a owl:Ontology ;
+    dcterms:title "covid" .
+
+
+emc2:test_covid a rdfs:Class ;
+    rdfs:label "test_covid" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+emc2:id_test_covid a rdf:Property ;
+    rdfs:label "id_test_covid" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+emc2:libelle_test_covid a rdf:Property ;
+    rdfs:label "libelle_test_covid" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+emc2:libelle_test_covid a rdf:Property ;
+    rdfs:label "type_test_covid" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+emc2:concerne a rdf:Property ;
+    rdfs:label "concerne" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+emc2:prend a rdf:Property ;
+    rdfs:label "prend" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+emc2:contient a rdf:Property ;
+    rdfs:label "contient" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+emc2:type_test_covid a rdf:Property ;
+    rdfs:label "type_test_covid" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+emc2:rdv a rdfs:Class ;
+    rdfs:label "rdv" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+emc2:id_rdv a rdf:Property ;
+    rdfs:label "id_rdv" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+emc2:id_patient a rdf:Property ;
+    rdfs:label "id_patient" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+emc2:id_test a rdf:Property ;
+    rdfs:label "id_test" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+emc2:effectue a rdf:Property ;
+    rdfs:label "effectue" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+emc2:stock_test a rdfs:Class ;
+    rdfs:label "stock_test" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+emc2:id_test a rdf:Property ;
+    rdfs:label "id_test" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+emc2:nombre_test a rdf:Property ;
+    rdfs:label "nombre_test" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+emc2:date_test a rdf:Property ;
+    rdfs:label "date_test" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+emc2:date_stock a rdf:Property ;
+    rdfs:label "date_stock" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+emc2:patient a rdfs:Class ;
+    rdfs:label "patient" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+emc2:id_patient a rdf:Property ;
+    rdfs:label "id_patient" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+emc2:nom_patient a rdf:Property ;
+    rdfs:label "nom_patient" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+emc2:prenom_patient a rdf:Property ;
+    rdfs:label "prenom_patient" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+
+emc2:n_carte_vitale_patient a rdf:Property ;
+    rdfs:label "n_carte_vitale_patient" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
