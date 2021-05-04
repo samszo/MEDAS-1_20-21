@@ -1,0 +1,77 @@
+{
+    "o:label": "Patients test\u00e9s",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "title",
+            "label": "Title"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/covidlikecoviderse.covid-verse.fr\/onto\/covid",
+            "vocabulary_label": "Gestion du Covid",
+            "local_name": "age",
+            "label": "\u00e2ge"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/covidlikecoviderse.covid-verse.fr\/onto\/covid",
+            "vocabulary_label": "Gestion du Covid",
+            "local_name": "ville",
+            "label": "ville"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/covidlikecoviderse.covid-verse.fr\/onto\/covid",
+            "vocabulary_label": "Gestion du Covid",
+            "local_name": "mainsymptom",
+            "label": "symptome principal"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/covidlikecoviderse.covid-verse.fr\/onto\/covid",
+            "vocabulary_label": "Gestion du Covid",
+            "local_name": "testeddate",
+            "label": "test\u00e9 le"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/covidlikecoviderse.covid-verse.fr\/onto\/covid",
+            "vocabulary_label": "Gestion du Covid",
+            "local_name": "testedby",
+            "label": "test\u00e9 avec"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/covidlikecoviderse.covid-verse.fr\/onto\/covid",
+        "vocabulary_label": "Gestion du Covid",
+        "local_name": "testedpatient",
+        "label": "patients test\u00e9s"
+    }
+}
