@@ -1,0 +1,995 @@
+// 20210504151627
+// http://localhost/omeka-s/api/items
+
+[
+  {
+    "@context": "http://localhost/omeka-s/api-context",
+    "@id": "http://localhost/omeka-s/api/items/1",
+    "@type": [
+      "o:Item",
+      "tstcov:Patient"
+    ],
+    "o:id": 1,
+    "o:is_public": true,
+    "o:owner": {
+      "@id": "http://localhost/omeka-s/api/users/1",
+      "o:id": 1
+    },
+    "o:resource_class": {
+      "@id": "http://localhost/omeka-s/api/resource_classes/106",
+      "o:id": 106
+    },
+    "o:resource_template": {
+      "@id": "http://localhost/omeka-s/api/resource_templates/2",
+      "o:id": 2
+    },
+    "o:thumbnail": null,
+    "o:title": "JEAN YVES",
+    "thumbnail_display_urls": {
+      "large": null,
+      "medium": null,
+      "square": null
+    },
+    "o:created": {
+      "@value": "2021-05-04T12:56:24+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:modified": {
+      "@value": "2021-05-04T12:56:24+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:media": [
+      
+    ],
+    "o:item_set": [
+      
+    ],
+    "o:site": [
+      
+    ],
+    "dcterms:title": [
+      {
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "JEAN YVES"
+      }
+    ],
+    "tstcov:nom": [
+      {
+        "type": "literal",
+        "property_id": 185,
+        "property_label": "a pour nom",
+        "is_public": true,
+        "@value": "JEAN"
+      }
+    ],
+    "tstcov:prenom": [
+      {
+        "type": "literal",
+        "property_id": 186,
+        "property_label": "a pour prenom",
+        "is_public": true,
+        "@value": "YVES"
+      }
+    ],
+    "tstcov:adresse": [
+      {
+        "type": "literal",
+        "property_id": 187,
+        "property_label": "adresse",
+        "is_public": true,
+        "@value": "1 rue du clos beauvoys"
+      }
+    ],
+    "tstcov:ville": [
+      {
+        "type": "literal",
+        "property_id": 188,
+        "property_label": "ville",
+        "is_public": true,
+        "@value": "Pithiviers"
+      }
+    ],
+    "tstcov:codepostal": [
+      {
+        "type": "literal",
+        "property_id": 189,
+        "property_label": "code postal",
+        "is_public": true,
+        "@value": "45300"
+      }
+    ],
+    "tstcov:Datenaissance": [
+      {
+        "type": "literal",
+        "property_id": 190,
+        "property_label": "Date de naissance",
+        "is_public": true,
+        "@value": "07/02/1961"
+      }
+    ],
+    "tstcov:Lieunaissance": [
+      {
+        "type": "literal",
+        "property_id": 191,
+        "property_label": "Lieu de naissance",
+        "is_public": true,
+        "@value": "Aubervilliers"
+      }
+    ],
+    "tstcov:numSS": [
+      {
+        "type": "literal",
+        "property_id": 192,
+        "property_label": "Numero SS",
+        "is_public": true,
+        "@value": "16102456258"
+      }
+    ]
+  },
+  {
+    "@context": "http://localhost/omeka-s/api-context",
+    "@id": "http://localhost/omeka-s/api/items/2",
+    "@type": [
+      "o:Item",
+      "tstcov:Patient"
+    ],
+    "o:id": 2,
+    "o:is_public": true,
+    "o:owner": {
+      "@id": "http://localhost/omeka-s/api/users/1",
+      "o:id": 1
+    },
+    "o:resource_class": {
+      "@id": "http://localhost/omeka-s/api/resource_classes/106",
+      "o:id": 106
+    },
+    "o:resource_template": {
+      "@id": "http://localhost/omeka-s/api/resource_templates/2",
+      "o:id": 2
+    },
+    "o:thumbnail": null,
+    "o:title": "DUPONT SOPHIE",
+    "thumbnail_display_urls": {
+      "large": null,
+      "medium": null,
+      "square": null
+    },
+    "o:created": {
+      "@value": "2021-05-04T12:59:51+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:modified": {
+      "@value": "2021-05-04T12:59:51+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:media": [
+      
+    ],
+    "o:item_set": [
+      
+    ],
+    "o:site": [
+      
+    ],
+    "dcterms:title": [
+      {
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "DUPONT SOPHIE"
+      }
+    ],
+    "tstcov:nom": [
+      {
+        "type": "literal",
+        "property_id": 185,
+        "property_label": "a pour nom",
+        "is_public": true,
+        "@value": "DUPONT"
+      }
+    ],
+    "tstcov:prenom": [
+      {
+        "type": "literal",
+        "property_id": 186,
+        "property_label": "a pour prenom",
+        "is_public": true,
+        "@value": "SOPHIE"
+      }
+    ],
+    "tstcov:adresse": [
+      {
+        "type": "literal",
+        "property_id": 187,
+        "property_label": "adresse",
+        "is_public": true,
+        "@value": "18 rue mademoiselle"
+      }
+    ],
+    "tstcov:ville": [
+      {
+        "type": "literal",
+        "property_id": 188,
+        "property_label": "ville",
+        "is_public": true,
+        "@value": "Paris"
+      }
+    ],
+    "tstcov:codepostal": [
+      {
+        "type": "literal",
+        "property_id": 189,
+        "property_label": "code postal",
+        "is_public": true,
+        "@value": "75015"
+      }
+    ],
+    "tstcov:Datenaissance": [
+      {
+        "type": "literal",
+        "property_id": 190,
+        "property_label": "Date de naissance",
+        "is_public": true,
+        "@value": "24/04/1987"
+      }
+    ],
+    "tstcov:Lieunaissance": [
+      {
+        "type": "literal",
+        "property_id": 191,
+        "property_label": "Lieu de naissance",
+        "is_public": true,
+        "@value": "Nantes"
+      }
+    ],
+    "tstcov:numSS": [
+      {
+        "type": "literal",
+        "property_id": 192,
+        "property_label": "Numero SS",
+        "is_public": true,
+        "@value": "28704526987"
+      }
+    ]
+  },
+  {
+    "@context": "http://localhost/omeka-s/api-context",
+    "@id": "http://localhost/omeka-s/api/items/3",
+    "@type": [
+      "o:Item",
+      "tstcov:Patient"
+    ],
+    "o:id": 3,
+    "o:is_public": true,
+    "o:owner": {
+      "@id": "http://localhost/omeka-s/api/users/1",
+      "o:id": 1
+    },
+    "o:resource_class": {
+      "@id": "http://localhost/omeka-s/api/resource_classes/106",
+      "o:id": 106
+    },
+    "o:resource_template": {
+      "@id": "http://localhost/omeka-s/api/resource_templates/2",
+      "o:id": 2
+    },
+    "o:thumbnail": null,
+    "o:title": "MARTINS JEREMY",
+    "thumbnail_display_urls": {
+      "large": null,
+      "medium": null,
+      "square": null
+    },
+    "o:created": {
+      "@value": "2021-05-04T13:01:04+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:modified": {
+      "@value": "2021-05-04T13:01:04+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:media": [
+      
+    ],
+    "o:item_set": [
+      
+    ],
+    "o:site": [
+      
+    ],
+    "dcterms:title": [
+      {
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "MARTINS JEREMY"
+      }
+    ],
+    "tstcov:nom": [
+      {
+        "type": "literal",
+        "property_id": 185,
+        "property_label": "a pour nom",
+        "is_public": true,
+        "@value": "MARTINS"
+      }
+    ],
+    "tstcov:prenom": [
+      {
+        "type": "literal",
+        "property_id": 186,
+        "property_label": "a pour prenom",
+        "is_public": true,
+        "@value": "JEREMY"
+      }
+    ],
+    "tstcov:adresse": [
+      {
+        "type": "literal",
+        "property_id": 187,
+        "property_label": "adresse",
+        "is_public": true,
+        "@value": "1 rue du 11 novembre 1918"
+      }
+    ],
+    "tstcov:ville": [
+      {
+        "type": "literal",
+        "property_id": 188,
+        "property_label": "ville",
+        "is_public": true,
+        "@value": "Villeneuve la Garenne"
+      }
+    ],
+    "tstcov:codepostal": [
+      {
+        "type": "literal",
+        "property_id": 189,
+        "property_label": "code postal",
+        "is_public": true,
+        "@value": "92390"
+      }
+    ],
+    "tstcov:Datenaissance": [
+      {
+        "type": "literal",
+        "property_id": 190,
+        "property_label": "Date de naissance",
+        "is_public": true,
+        "@value": "31/01/1995"
+      }
+    ],
+    "tstcov:Lieunaissance": [
+      {
+        "type": "literal",
+        "property_id": 191,
+        "property_label": "Lieu de naissance",
+        "is_public": true,
+        "@value": "Villeneuve la Garenne"
+      }
+    ],
+    "tstcov:numSS": [
+      {
+        "type": "literal",
+        "property_id": 192,
+        "property_label": "Numero SS",
+        "is_public": true,
+        "@value": "19501411225"
+      }
+    ]
+  },
+  {
+    "@context": "http://localhost/omeka-s/api-context",
+    "@id": "http://localhost/omeka-s/api/items/4",
+    "@type": [
+      "o:Item",
+      "tstcov:Test"
+    ],
+    "o:id": 4,
+    "o:is_public": true,
+    "o:owner": {
+      "@id": "http://localhost/omeka-s/api/users/1",
+      "o:id": 1
+    },
+    "o:resource_class": {
+      "@id": "http://localhost/omeka-s/api/resource_classes/108",
+      "o:id": 108
+    },
+    "o:resource_template": {
+      "@id": "http://localhost/omeka-s/api/resource_templates/4",
+      "o:id": 4
+    },
+    "o:thumbnail": null,
+    "o:title": "Test antigénique",
+    "thumbnail_display_urls": {
+      "large": null,
+      "medium": null,
+      "square": null
+    },
+    "o:created": {
+      "@value": "2021-05-04T13:03:13+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:modified": {
+      "@value": "2021-05-04T13:03:13+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:media": [
+      
+    ],
+    "o:item_set": [
+      
+    ],
+    "o:site": [
+      
+    ],
+    "dcterms:title": [
+      {
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "Test antigénique"
+      },
+      {
+        "type": "uri",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@id": "https://www.rdsm.be/fr/test-covid19-ag.html"
+      }
+    ],
+    "dcterms:description": [
+      {
+        "type": "literal",
+        "property_id": 4,
+        "property_label": "Description",
+        "is_public": true,
+        "@value": "Test rapide COVID-19 avec la meilleure spécificité (100%) et sensibilité (97,3%) du marché."
+      }
+    ],
+    "tstcov:libelle": [
+      {
+        "type": "literal",
+        "property_id": 195,
+        "property_label": "Libellé du test",
+        "is_public": true,
+        "@value": "Antigénique"
+      }
+    ],
+    "tstcov:marque": [
+      {
+        "type": "literal",
+        "property_id": 196,
+        "property_label": "Marque du test",
+        "is_public": true,
+        "@value": "AMP"
+      }
+    ]
+  },
+  {
+    "@context": "http://localhost/omeka-s/api-context",
+    "@id": "http://localhost/omeka-s/api/items/5",
+    "@type": [
+      "o:Item",
+      "tstcov:Test"
+    ],
+    "o:id": 5,
+    "o:is_public": true,
+    "o:owner": {
+      "@id": "http://localhost/omeka-s/api/users/1",
+      "o:id": 1
+    },
+    "o:resource_class": {
+      "@id": "http://localhost/omeka-s/api/resource_classes/108",
+      "o:id": 108
+    },
+    "o:resource_template": {
+      "@id": "http://localhost/omeka-s/api/resource_templates/4",
+      "o:id": 4
+    },
+    "o:thumbnail": null,
+    "o:title": "Test PCR",
+    "thumbnail_display_urls": {
+      "large": null,
+      "medium": null,
+      "square": null
+    },
+    "o:created": {
+      "@value": "2021-05-04T13:05:26+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:modified": {
+      "@value": "2021-05-04T13:05:26+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:media": [
+      
+    ],
+    "o:item_set": [
+      
+    ],
+    "o:site": [
+      
+    ],
+    "dcterms:title": [
+      {
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "Test PCR"
+      }
+    ],
+    "tstcov:libelle": [
+      {
+        "type": "literal",
+        "property_id": 195,
+        "property_label": "Libellé du test",
+        "is_public": true,
+        "@value": "PCR"
+      }
+    ],
+    "tstcov:marque": [
+      {
+        "type": "literal",
+        "property_id": 196,
+        "property_label": "Marque du test",
+        "is_public": true,
+        "@value": "Roche Diagnostics"
+      },
+      {
+        "type": "uri",
+        "property_id": 196,
+        "property_label": "Marque du test",
+        "is_public": true,
+        "@id": "https://diagnostics.roche.com/fr/fr/home.html"
+      }
+    ]
+  },
+  {
+    "@context": "http://localhost/omeka-s/api-context",
+    "@id": "http://localhost/omeka-s/api/items/6",
+    "@type": [
+      "o:Item",
+      "tstcov:RDVtest"
+    ],
+    "o:id": 6,
+    "o:is_public": true,
+    "o:owner": {
+      "@id": "http://localhost/omeka-s/api/users/1",
+      "o:id": 1
+    },
+    "o:resource_class": {
+      "@id": "http://localhost/omeka-s/api/resource_classes/107",
+      "o:id": 107
+    },
+    "o:resource_template": {
+      "@id": "http://localhost/omeka-s/api/resource_templates/3",
+      "o:id": 3
+    },
+    "o:thumbnail": null,
+    "o:title": "RDV du 04/05 - 9h",
+    "thumbnail_display_urls": {
+      "large": null,
+      "medium": null,
+      "square": null
+    },
+    "o:created": {
+      "@value": "2021-05-04T13:09:00+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:modified": {
+      "@value": "2021-05-04T13:09:00+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:media": [
+      
+    ],
+    "o:item_set": [
+      
+    ],
+    "o:site": [
+      
+    ],
+    "dcterms:title": [
+      {
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "RDV du 04/05 - 9h"
+      }
+    ],
+    "dcterms:description": [
+      {
+        "type": "literal",
+        "property_id": 4,
+        "property_label": "Description",
+        "is_public": true,
+        "@value": "Concerne le patient "
+      },
+      {
+        "type": "resource",
+        "property_id": 4,
+        "property_label": "Description",
+        "is_public": true,
+        "@id": "http://localhost/omeka-s/api/items/1",
+        "value_resource_id": 1,
+        "value_resource_name": "items",
+        "url": null,
+        "display_title": "JEAN YVES"
+      },
+      {
+        "type": "literal",
+        "property_id": 4,
+        "property_label": "Description",
+        "is_public": true,
+        "@value": "Test effectué "
+      },
+      {
+        "type": "resource",
+        "property_id": 4,
+        "property_label": "Description",
+        "is_public": true,
+        "@id": "http://localhost/omeka-s/api/items/4",
+        "value_resource_id": 4,
+        "value_resource_name": "items",
+        "url": null,
+        "display_title": "Test antigénique"
+      }
+    ],
+    "tstcov:date": [
+      {
+        "type": "literal",
+        "property_id": 193,
+        "property_label": "Date",
+        "is_public": true,
+        "@value": "04/05/2020 - 09:00:00"
+      }
+    ],
+    "tstcov:motif": [
+      {
+        "type": "literal",
+        "property_id": 194,
+        "property_label": "Motif de dépistage",
+        "is_public": true,
+        "@value": "Déplacement"
+      }
+    ]
+  },
+  {
+    "@context": "http://localhost/omeka-s/api-context",
+    "@id": "http://localhost/omeka-s/api/items/7",
+    "@type": [
+      "o:Item",
+      "tstcov:RDVtest"
+    ],
+    "o:id": 7,
+    "o:is_public": true,
+    "o:owner": {
+      "@id": "http://localhost/omeka-s/api/users/1",
+      "o:id": 1
+    },
+    "o:resource_class": {
+      "@id": "http://localhost/omeka-s/api/resource_classes/107",
+      "o:id": 107
+    },
+    "o:resource_template": {
+      "@id": "http://localhost/omeka-s/api/resource_templates/3",
+      "o:id": 3
+    },
+    "o:thumbnail": null,
+    "o:title": "RDV du 04/05 - 9h30",
+    "thumbnail_display_urls": {
+      "large": null,
+      "medium": null,
+      "square": null
+    },
+    "o:created": {
+      "@value": "2021-05-04T13:10:34+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:modified": {
+      "@value": "2021-05-04T13:10:34+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:media": [
+      
+    ],
+    "o:item_set": [
+      
+    ],
+    "o:site": [
+      
+    ],
+    "dcterms:title": [
+      {
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "RDV du 04/05 - 9h30"
+      }
+    ],
+    "dcterms:description": [
+      {
+        "type": "literal",
+        "property_id": 4,
+        "property_label": "Description",
+        "is_public": true,
+        "@value": "Concerne le patient "
+      },
+      {
+        "type": "resource",
+        "property_id": 4,
+        "property_label": "Description",
+        "is_public": true,
+        "@id": "http://localhost/omeka-s/api/items/2",
+        "value_resource_id": 2,
+        "value_resource_name": "items",
+        "url": null,
+        "display_title": "DUPONT SOPHIE"
+      },
+      {
+        "type": "literal",
+        "property_id": 4,
+        "property_label": "Description",
+        "is_public": true,
+        "@value": "Test utilisé"
+      },
+      {
+        "type": "resource",
+        "property_id": 4,
+        "property_label": "Description",
+        "is_public": true,
+        "@id": "http://localhost/omeka-s/api/items/5",
+        "value_resource_id": 5,
+        "value_resource_name": "items",
+        "url": null,
+        "display_title": "Test PCR"
+      }
+    ],
+    "tstcov:date": [
+      {
+        "type": "literal",
+        "property_id": 193,
+        "property_label": "Date",
+        "is_public": true,
+        "@value": "04/05/2020 - 09:30:00"
+      }
+    ],
+    "tstcov:motif": [
+      {
+        "type": "literal",
+        "property_id": 194,
+        "property_label": "Motif de dépistage",
+        "is_public": true,
+        "@value": "Symptômes légers"
+      }
+    ]
+  },
+  {
+    "@context": "http://localhost/omeka-s/api-context",
+    "@id": "http://localhost/omeka-s/api/items/8",
+    "@type": [
+      "o:Item",
+      "tstcov:Fournisseur"
+    ],
+    "o:id": 8,
+    "o:is_public": true,
+    "o:owner": {
+      "@id": "http://localhost/omeka-s/api/users/1",
+      "o:id": 1
+    },
+    "o:resource_class": {
+      "@id": "http://localhost/omeka-s/api/resource_classes/110",
+      "o:id": 110
+    },
+    "o:resource_template": {
+      "@id": "http://localhost/omeka-s/api/resource_templates/6",
+      "o:id": 6
+    },
+    "o:thumbnail": null,
+    "o:title": "Fournisseur VEGEA",
+    "thumbnail_display_urls": {
+      "large": null,
+      "medium": null,
+      "square": null
+    },
+    "o:created": {
+      "@value": "2021-05-04T13:13:26+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:modified": {
+      "@value": "2021-05-04T13:13:26+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:media": [
+      
+    ],
+    "o:item_set": [
+      
+    ],
+    "o:site": [
+      
+    ],
+    "dcterms:title": [
+      {
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "Fournisseur VEGEA"
+      }
+    ],
+    "dcterms:description": [
+      {
+        "type": "literal",
+        "property_id": 4,
+        "property_label": "Description",
+        "is_public": true,
+        "@value": "Voir site web"
+      },
+      {
+        "type": "uri",
+        "property_id": 4,
+        "property_label": "Description",
+        "is_public": true,
+        "@id": "https://www.vegea.com/"
+      }
+    ],
+    "tstcov:nom": [
+      {
+        "type": "literal",
+        "property_id": 185,
+        "property_label": "a pour nom",
+        "is_public": true,
+        "@value": "VEGEA"
+      }
+    ],
+    "tstcov:adresse": [
+      {
+        "type": "literal",
+        "property_id": 187,
+        "property_label": "adresse",
+        "is_public": true,
+        "@value": "5 Avenue Caroline"
+      }
+    ],
+    "tstcov:ville": [
+      {
+        "type": "literal",
+        "property_id": 188,
+        "property_label": "ville",
+        "is_public": true,
+        "@value": "Saint-Cloud"
+      }
+    ],
+    "tstcov:codepostal": [
+      {
+        "type": "literal",
+        "property_id": 189,
+        "property_label": "code postal",
+        "is_public": true,
+        "@value": "92210 "
+      }
+    ]
+  },
+  {
+    "@context": "http://localhost/omeka-s/api-context",
+    "@id": "http://localhost/omeka-s/api/items/9",
+    "@type": [
+      "o:Item",
+      "tstcov:Commande"
+    ],
+    "o:id": 9,
+    "o:is_public": true,
+    "o:owner": {
+      "@id": "http://localhost/omeka-s/api/users/1",
+      "o:id": 1
+    },
+    "o:resource_class": {
+      "@id": "http://localhost/omeka-s/api/resource_classes/109",
+      "o:id": 109
+    },
+    "o:resource_template": {
+      "@id": "http://localhost/omeka-s/api/resource_templates/5",
+      "o:id": 5
+    },
+    "o:thumbnail": null,
+    "o:title": "Commande du 02/05",
+    "thumbnail_display_urls": {
+      "large": null,
+      "medium": null,
+      "square": null
+    },
+    "o:created": {
+      "@value": "2021-05-04T13:15:40+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:modified": {
+      "@value": "2021-05-04T13:15:40+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:media": [
+      
+    ],
+    "o:item_set": [
+      
+    ],
+    "o:site": [
+      
+    ],
+    "dcterms:title": [
+      {
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "Commande du 02/05"
+      }
+    ],
+    "dcterms:description": [
+      {
+        "type": "literal",
+        "property_id": 4,
+        "property_label": "Description",
+        "is_public": true,
+        "@value": "Type de tests COVID"
+      },
+      {
+        "type": "resource",
+        "property_id": 4,
+        "property_label": "Description",
+        "is_public": true,
+        "@id": "http://localhost/omeka-s/api/items/4",
+        "value_resource_id": 4,
+        "value_resource_name": "items",
+        "url": null,
+        "display_title": "Test antigénique"
+      },
+      {
+        "type": "literal",
+        "property_id": 4,
+        "property_label": "Description",
+        "is_public": true,
+        "@value": "Du fournisseur "
+      },
+      {
+        "type": "resource",
+        "property_id": 4,
+        "property_label": "Description",
+        "is_public": true,
+        "@id": "http://localhost/omeka-s/api/items/8",
+        "value_resource_id": 8,
+        "value_resource_name": "items",
+        "url": null,
+        "display_title": "Fournisseur VEGEA"
+      }
+    ],
+    "tstcov:date": [
+      {
+        "type": "literal",
+        "property_id": 193,
+        "property_label": "Date",
+        "is_public": true,
+        "@value": "02/05/2020 - 08:00:00"
+      }
+    ],
+    "tstcov:quantite": [
+      {
+        "type": "literal",
+        "property_id": 197,
+        "property_label": "Quantité",
+        "is_public": true,
+        "@value": "50"
+      }
+    ]
+  }
+]
