@@ -1,0 +1,46 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix covid: <https://testscovid.fr/onto/covid#> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#>.
+
+<https://testscovid.fr/onto/covid#> a owl:Ontology ;
+    dcterms:title "personnes testées" .
+covid: a rdfs:Class ;
+rdfs:label "test disponible";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+covid:rendezvouspersonnestestées a rdfs:Class ;
+rdfs:label "rendezvouspersonnestestées";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+covid:rendezvous a rdfs:Class ;
+rdfs:label "rendezvous";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+covid:rendezvous a rdfs:Class ;
+rdfs:label "test disponible";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+covid:testscovid a rdfs:Class ;
+rdfs:label "testscovid";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+covid:rendezvous_has_personnes testées a rdfs:Class ;
+rdfs:label "rendezvous_has_personnes testées";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+covid:testscovid a rdf:Property ;
+rdfs:label "testscovid";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+    covid:testscovid a rdf:Property ;
+rdfs:label "tests disponibles";
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
