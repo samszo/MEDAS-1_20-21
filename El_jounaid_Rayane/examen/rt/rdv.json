@@ -1,0 +1,66 @@
+{
+    "o:label": "rdv",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/covid.yaya.fr\/covid-19\/",
+            "vocabulary_label": "Covid-19",
+            "local_name": "idRDV",
+            "label": "idRDV"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/covid.yaya.fr\/covid-19\/",
+            "vocabulary_label": "Covid-19",
+            "local_name": "date",
+            "label": "date"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/covid.yaya.fr\/covid-19\/",
+            "vocabulary_label": "Covid-19",
+            "local_name": "type",
+            "label": "type"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/covid.yaya.fr\/covid-19\/",
+            "vocabulary_label": "Covid-19",
+            "local_name": "idPersonne",
+            "label": "idPersonne"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/covid.yaya.fr\/covid-19\/",
+            "vocabulary_label": "Covid-19",
+            "local_name": "idCentre_medical",
+            "label": "idCentre_medical"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/covid.yaya.fr\/covid-19\/",
+        "vocabulary_label": "Covid-19",
+        "local_name": "rdv",
+        "label": "rdv"
+    }
+}

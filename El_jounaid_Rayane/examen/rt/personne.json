@@ -1,0 +1,55 @@
+{
+    "o:label": "personne",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/covid.yaya.fr\/covid-19\/",
+            "vocabulary_label": "Covid-19",
+            "local_name": "idPersonne",
+            "label": "idPersonne"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/covid.yaya.fr\/covid-19\/",
+            "vocabulary_label": "Covid-19",
+            "local_name": "Nom",
+            "label": "Nom"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/covid.yaya.fr\/covid-19\/",
+            "vocabulary_label": "Covid-19",
+            "local_name": "Prenom",
+            "label": "Prenom"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/covid.yaya.fr\/covid-19\/",
+            "vocabulary_label": "Covid-19",
+            "local_name": "Age",
+            "label": "Age"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/covid.yaya.fr\/covid-19\/",
+        "vocabulary_label": "Covid-19",
+        "local_name": "personne",
+        "label": "personne"
+    }
+}

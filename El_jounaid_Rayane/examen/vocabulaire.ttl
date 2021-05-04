@@ -1,0 +1,85 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#>.
+
+@prefix cov: <https://covid.yaya.fr/covid-19/> .
+
+<https://covid.yaya.fr/covid-19/> a owl:Ontology ;
+   dcterms:title "Anti-Covid-19" .
+
+cov:personne a rdfs:Class ;
+   rdfs:label "personne";
+   rdfs:domain o:Resource ;
+   vs:term_status "experimental" .
+cov:centre_medical a rdfs:Class ;
+   rdfs:label "centre_medical";
+   rdfs:domain o:Resource ;
+   vs:term_status "experimental" .
+cov:livraison a rdfs:Class ;
+   rdfs:label "livraison";
+   rdfs:domain o:Resource ;
+   vs:term_status "experimental" .
+cov:rdv a rdfs:Class ;
+   rdfs:label "rdv";
+   rdfs:domain o:Resource ;
+   vs:term_status "experimental" .
+
+
+
+cov:idPersonne a rdf:Property ;
+rdfs:label "idPersonne";
+   rdfs:domain o:Resource ;
+   vs:term_status "experimental" .
+cov:Nom a rdf:Property ;
+rdfs:label "Nom";
+   rdfs:domain o:Resource ;
+   vs:term_status "experimental" .
+cov:Prenom a rdf:Property ;
+rdfs:label "Prenom";
+   rdfs:domain o:Resource ;
+   vs:term_status "experimental" .
+cov:Age a rdf:Property ;
+rdfs:label "Age";
+   rdfs:domain o:Resource ;
+   vs:term_status "experimental" .
+
+cov:idCentre_medical a rdf:Property ;
+rdfs:label "idCentre_medical";
+   rdfs:domain o:Resource ;
+   vs:term_status "experimental" .
+cov:stock_vaccin a rdf:Property ;
+rdfs:label "stock_vaccin";
+   rdfs:domain o:Resource ;
+   vs:term_status "experimental" .
+cov:stock_test a rdf:Property ;
+rdfs:label "stock_test";
+   rdfs:domain o:Resource ;
+   vs:term_status "experimental" .
+
+cov:idLivraison a rdf:Property ;
+rdfs:label "idLivraison";
+   rdfs:domain o:Resource ;
+   vs:term_status "experimental" .
+cov:type a rdf:Property ;
+rdfs:label "type";
+   rdfs:domain o:Resource ;
+   vs:term_status "experimental" .
+cov:nb a rdf:Property ;
+rdfs:label "nb";
+   rdfs:domain o:Resource ;
+   vs:term_status "experimental" .
+cov:date a rdf:Property ;
+rdfs:label "date";
+   rdfs:domain o:Resource ;
+   vs:term_status "experimental" .
+
+cov:idRDV a rdf:Property ;
+rdfs:label "idRDV";
+   rdfs:domain o:Resource ;
+   vs:term_status "experimental" .
+

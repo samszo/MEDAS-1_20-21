@@ -1,0 +1,55 @@
+{
+    "o:label": "centre_medical",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/covid.yaya.fr\/covid-19\/",
+            "vocabulary_label": "Covid-19",
+            "local_name": "idCentre_medical",
+            "label": "idCentre_medical"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/covid.yaya.fr\/covid-19\/",
+            "vocabulary_label": "Covid-19",
+            "local_name": "Nom",
+            "label": "Nom"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/covid.yaya.fr\/covid-19\/",
+            "vocabulary_label": "Covid-19",
+            "local_name": "stock_vaccin",
+            "label": "stock_vaccin"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/covid.yaya.fr\/covid-19\/",
+            "vocabulary_label": "Covid-19",
+            "local_name": "stock_test",
+            "label": "stock_test"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/covid.yaya.fr\/covid-19\/",
+        "vocabulary_label": "Covid-19",
+        "local_name": "centre_medical",
+        "label": "centre_medical"
+    }
+}
